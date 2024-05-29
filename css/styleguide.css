@@ -1,0 +1,210 @@
+:root { 
+  --bckgroundbg-cultured: #fafafa;
+  --black: #000000;
+  --blue-charcoal: #060919;
+  --brandbrandorange: #ef856e;
+  --brandbrandwhite: #fafafa;
+  --brandlightblue: #add4ef;
+  --brandsms-french-sky-blue: #79acc7;
+  --california: #ff9a01;
+  --general-color3: #ffffff;
+  --general-color4: #fafafa;
+  --general-color7: #f7fafa;
+  --general-colormidnight-blue---hero-section: #093753;
+  --general-colorsms--pale-cyan-blue: #adcddd;
+  --general-colorsms-ocean-blue: #498cb2;
+  --givry: #f6e8c5;
+  --greygrey-1: #3e4150;
+  --pizazz: #ff9702;
+  --pizazz-2: #ff9403;
+  --primaryprimary-2: #fafafa;
+  --primaryprimarybluegradiant: #ef856e;
+  --primarysalmon-pink: #ef856e;
+  --sunglow: #ffc947;
+  --white: #fafafa;
+  --white-2: #ffffff80;
+  --white-3: #ffffffb2;
+ 
+  --font-size-l: 18px;
+  --font-size-m: 16px;
+  --font-size-s: 14px;
+  --font-size-xl: 21px;
+  --font-size-xs: 11.6px;
+  --font-size-xxl: 32px;
+  --font-size-xxxl: 36px;
+ 
+  --font-family-inter-bold: "Inter-Bold", Helvetica;
+  --font-family-inter-regular: "Inter-Regular", Helvetica;
+  --font-family-inter-semibold: "Inter-SemiBold", Helvetica;
+  --font-family-space_grotesk: "Space Grotesk", Helvetica;
+}
+.spacegrotesk-normal-white-16px {
+  color: var(--general-color3);
+  font-family: var(--font-family-space_grotesk);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.spacegrotesk-bold-tarawera-32px {
+  color: var(--general-colormidnight-blue---hero-section);
+  font-family: var(--font-family-space_grotesk);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.spacegrotesk-normal-bright-gray-16px {
+  color: var(--greygrey-1);
+  font-family: var(--font-family-space_grotesk);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.spacegrotesk-medium-white-16px {
+  color: var(--general-color3);
+  font-family: var(--font-family-space_grotesk);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.spacegrotesk-medium-tarawera-18px {
+  color: var(--general-colormidnight-blue---hero-section);
+  font-family: var(--font-family-space_grotesk);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.spacegrotesk-normal-tarawera-16px {
+  color: var(--general-colormidnight-blue---hero-section);
+  font-family: var(--font-family-space_grotesk);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.spacegrotesk-bold-tarawera-36px {
+  color: var(--general-colormidnight-blue---hero-section);
+  font-family: var(--font-family-space_grotesk);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.spacegrotesk-medium-bright-gray-24px {
+  color: var(--greygrey-1);
+  font-family: var(--font-family-space_grotesk);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.spacegrotesk-medium-white-21px {
+  color: var(--general-color3);
+  font-family: var(--font-family-space_grotesk);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.spacegrotesk-bold-white-58px {
+  color: var(--general-color3);
+  font-family: var(--font-family-space_grotesk);
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.spacegrotesk-normal-white-11px {
+  color: var(--general-color3);
+  font-family: var(--font-family-space_grotesk);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.spacegrotesk-normal-tarawera-21px {
+  color: var(--general-colormidnight-blue---hero-section);
+  font-family: var(--font-family-space_grotesk);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.spacegrotesk-medium-white-14px {
+  color: var(--general-color3);
+  font-family: var(--font-family-space_grotesk);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.spacegrotesk-bold-bright-gray-13px {
+  color: var(--greygrey-1);
+  font-family: var(--font-family-space_grotesk);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.spacegrotesk-normal-white-14px {
+  color: var(--general-color3);
+  font-family: var(--font-family-space_grotesk);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.spacegrotesk-bold-white-36px {
+  color: var(--general-color3);
+  font-family: var(--font-family-space_grotesk);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.spacegrotesk-bold-tarawera-64px {
+  color: var(--general-colormidnight-blue---hero-section);
+  font-family: var(--font-family-space_grotesk);
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.spacegrotesk-medium-black-21px {
+  color: var(--black);
+  font-family: var(--font-family-space_grotesk);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.spacegrotesk-medium-black-14px {
+  color: var(--black);
+  font-family: var(--font-family-space_grotesk);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.spacegrotesk-medium-black-18px {
+  color: var(--black);
+  font-family: var(--font-family-space_grotesk);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.spacegrotesk-normal-tarawera-11px {
+  color: var(--general-colormidnight-blue---hero-section);
+  font-family: var(--font-family-space_grotesk);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+:root {
+}

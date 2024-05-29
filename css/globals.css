@@ -1,0 +1,94 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Space+Grotesk:500,700,400");
+/* The following line is used to measure usage of this code. You can remove it if you want. */
+@import url("https://px.animaapp.com/65d5ef9eb758944670ebfaa3.65d5ef9fb758944670ebfaa6.n1VoDHJ.hcp.png");
+
+
+
+.screen textarea:focus,
+.screen input:focus {
+  outline: none;
+}
+
+.screen * {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+.screen div {
+  -webkit-text-size-adjust: none;
+}
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+  overflow: hidden;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.email-1_svgrepocom {
+  background-color: transparent;
+  position: absolute;
+}
+
+.line-6 {
+  background-color: transparent;
+  object-fit: cover;
+  position: absolute;
+}
+
+.title {
+  background-color: transparent;
+  position: relative;
+}
+
+.feature-cards {
+  background-color: transparent;
+  position: relative;
+}
+
+.list {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.polygon-1 {
+  background-color: transparent;
+  position: absolute;
+}
+
+.shapes {
+  background-color: transparent;
+  position: absolute;
+}

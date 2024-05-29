@@ -1,0 +1,460 @@
+/* screen - 404-web */
+
+.x404-web {
+  background-color: transparent;
+  height: 133.4vw;
+  overflow-x: hidden;
+  position: relative;
+  width: 100.0vw;
+}
+
+.x404-web .x404-bvM1Is {
+  background-color: var(--general-colormidnight-blue---hero-section);
+  height: 133.4vw;
+  left: 0.0vw;
+  overflow: hidden;
+  position: relative;
+  top: 0.0vw;
+  width: 100.0vw;
+}
+
+.x404-web .navbar-JUj1NU {
+  align-items: center;
+  background-color: var(--general-colormidnight-blue---hero-section);
+  display: flex;
+  justify-content: space-between;
+  left: 0.0vw;
+  padding: 2.34vw 7.03vw;
+  position: absolute;
+  top: 0.0vw;
+  width: 100.0vw;
+}
+
+.x404-web .group-HxhoYB {
+  background-color: transparent;
+  height: 5.37vw;
+  position: relative;
+  width: 8.69vw;
+}
+
+.x404-web .logo-EyfjYN {
+  background-color: transparent;
+  height: 5.37vw;
+  left: 0.0vw;
+  position: relative;
+  top: 0.0vw;
+  width: 8.69vw;
+}
+
+.x404-web .bharat-logo-qPb094 {
+  background-color: transparent;
+  height: 5.37vw;
+  left: 0.0vw;
+  position: absolute;
+  top: 0.0vw;
+  width: 8.69vw;
+}
+
+.x404-web .menu-HxhoYB {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.0vw 13.48vw;
+  position: relative;
+  width: 59.44vw;
+}
+
+.x404-web .home-BWtVxT {
+  background-color: transparent;
+  letter-spacing: 0.0vw;
+  line-height: 2.54vw;
+  margin-top: -0.1vw;
+  position: relative;
+  text-align: right;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.x404-web .blog-BWtVxT {
+  background-color: transparent;
+  letter-spacing: 0.0vw;
+  line-height: 2.54vw;
+  margin-top: -0.1vw;
+  position: relative;
+  text-align: right;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.x404-web .download-resume-BWtVxT {
+  background-color: transparent;
+  letter-spacing: 0.0vw;
+  line-height: 2.54vw;
+  margin-top: -0.1vw;
+  position: relative;
+  text-align: right;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.x404-web .button-HxhoYB {
+  align-items: center;
+  background-color: var(--brandbrandorange);
+  border-radius: 5.86vw;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 0.98vw;
+  justify-content: center;
+  padding: 1.56vw 3.12vw;
+  position: relative;
+}
+
+.x404-web .contact-me-xyHco3 {
+  background-color: transparent;
+  letter-spacing: 0.0vw;
+  line-height: 2.34vw;
+  margin-top: -0.1vw;
+  position: relative;
+  text-align: right;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.x404-web .grid-JUj1NU {
+  background-color: transparent;
+  height: 127.83vw;
+  left: -28.12vw;
+  position: absolute;
+  top: 13.38vw;
+  width: 156.25vw;
+}
+
+.x404-web .group-36458-7by6lu {
+  background-color: transparent;
+  height: 127.83vw;
+  left: 0.0vw;
+  position: absolute;
+  top: 0.0vw;
+  width: 156.25vw;
+}
+
+.x404-web .line-3-M2VKTO {
+  left: 1926.66vw;
+  top: 1557.71vw;
+  width: 127.83vw;
+}
+
+.x404-web .line-5-M2VKTO {
+  height: 120.02vw;
+  left: 52.05vw;
+  top: 0.0vw;
+  width: 0.1vw;
+}
+
+.x404-web .line-6-M2VKTO {
+  height: 120.02vw;
+  left: 78.12vw;
+  top: 0.0vw;
+  width: 0.1vw;
+}
+
+.x404-web .line-7-M2VKTO {
+  height: 120.02vw;
+  left: 104.2vw;
+  top: 0.0vw;
+  width: 0.1vw;
+}
+
+.x404-web .line-8-M2VKTO {
+  left: 2030.76vw;
+  top: 1557.71vw;
+  width: 127.83vw;
+}
+
+.x404-web .line-9-M2VKTO {
+  left: 2056.84vw;
+  top: 1557.71vw;
+  width: 127.83vw;
+}
+
+.x404-web .line-4-M2VKTO {
+  left: 1900.59vw;
+  top: 1557.71vw;
+  width: 127.83vw;
+}
+
+.x404-web .group-36459-7by6lu {
+  background-color: transparent;
+  height: 156.25vw;
+  left: 14.16vw;
+  position: absolute;
+  top: -14.16vw;
+  transform: rotate(-90deg);
+  width: 127.83vw;
+}
+
+.x404-web .line-3-RdNNim {
+  left: -28.61vw;
+  top: 78.12vw;
+  transform: rotate(90deg);
+  width: 100.0vw;
+}
+
+.x404-web .line-5-RdNNim {
+  height: 0.1vw;
+  left: -7.32vw;
+  top: 78.12vw;
+  transform: rotate(90deg);
+  width: 100.0vw;
+}
+
+.x404-web .line-6-RdNNim {
+  height: 0.1vw;
+  left: 13.96vw;
+  top: 78.12vw;
+  transform: rotate(90deg);
+  width: 100.0vw;
+}
+
+.x404-web .line-7-RdNNim {
+  height: 0.1vw;
+  left: 35.25vw;
+  top: 78.12vw;
+  transform: rotate(90deg);
+  width: 100.0vw;
+}
+
+.x404-web .line-8-RdNNim {
+  left: 56.54vw;
+  top: 78.12vw;
+  transform: rotate(90deg);
+  width: 100.0vw;
+}
+
+.x404-web .line-9-RdNNim {
+  left: 77.93vw;
+  top: 78.12vw;
+  transform: rotate(90deg);
+  width: 100.0vw;
+}
+
+.x404-web .line-4-RdNNim {
+  left: -1635.84vw;
+  top: 1978.71vw;
+  transform: rotate(90deg);
+  width: 156.25vw;
+}
+
+.x404-web .frame-1000002067-JUj1NU {
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 3.12vw;
+  left: 10.84vw;
+  position: absolute;
+  top: 46.58vw;
+}
+
+.x404-web .frame-1000002063-X7umrt {
+  background-color: transparent;
+  height: 33.11vw;
+  position: relative;
+  width: 78.42vw;
+}
+
+.x404-web .x4-qpp3OD {
+  left: 6.05vw;
+  transform: rotate(-30.00deg);
+}
+
+.x404-web .x4-Qxwy2Q {
+  left: 55.76vw;
+  transform: rotate(30.00deg);
+}
+
+.x404-web .x0-qpp3OD {
+  background-color: transparent;
+  color: var(--bckgroundbg-cultured);
+  font-family: var(--font-family-space_grotesk);
+  font-size: 26.15vw;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 31.15vw;
+  letter-spacing: 0.0vw;
+  line-height: 28.49vw;
+  position: absolute;
+  text-align: left;
+  top: 2.15vw;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x404-web .vector-qpp3OD {
+  background-color: transparent;
+  height: 5.27vw;
+  left: 36.52vw;
+  position: absolute;
+  top: -3.03vw;
+  width: 5.27vw;
+}
+
+.x404-web .polygon-1-qpp3OD {
+  background-color: transparent;
+  height: 2.05vw;
+  left: 25.0vw;
+  position: absolute;
+  top: 7.62vw;
+  width: 2.05vw;
+}
+
+.x404-web .polygon-6-qpp3OD {
+  background-color: transparent;
+  height: 2.05vw;
+  left: 76.27vw;
+  position: absolute;
+  top: 23.83vw;
+  width: 2.05vw;
+}
+
+.x404-web .polygon-2-qpp3OD {
+  background-color: transparent;
+  height: 2.05vw;
+  left: 4.0vw;
+  position: absolute;
+  top: 21.58vw;
+  width: 2.05vw;
+}
+
+.x404-web .polygon-3-qpp3OD {
+  background-color: transparent;
+  height: 2.05vw;
+  left: 54.3vw;
+  position: absolute;
+  top: 24.51vw;
+  width: 2.05vw;
+}
+
+.x404-web .polygon-4-qpp3OD {
+  background-color: transparent;
+  height: 2.05vw;
+  left: 54.3vw;
+  position: absolute;
+  top: 6.45vw;
+  width: 2.05vw;
+}
+
+.x404-web .polygon-5-qpp3OD {
+  background-color: transparent;
+  height: 2.05vw;
+  left: 28.81vw;
+  position: absolute;
+  top: 28.61vw;
+  width: 2.05vw;
+}
+
+.x404-web .polygon-7-qpp3OD {
+  background-color: transparent;
+  height: 2.05vw;
+  left: 2.83vw;
+  position: absolute;
+  top: 5.37vw;
+  width: 2.05vw;
+}
+
+.x404-web .frame-1000002064-X7umrt {
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 1.7vw;
+  position: relative;
+}
+
+.x404-web .halaman-yang-anda-ca-5TpSMi {
+  background-color: transparent;
+  letter-spacing: 0.0vw;
+  line-height: 2.34vw;
+  margin-top: -0.07vw;
+  opacity: 0.8;
+  position: relative;
+  text-align: center;
+  width: 59.52vw;
+}
+
+.x404-web .back-to-homepage-5TpSMi {
+  background-color: transparent;
+  color: var(--brandbrandorange);
+  font-family: var(--font-family-space_grotesk);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.0vw;
+  line-height: 2.73vw;
+  opacity: 0.8;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.x404-web .line-3 {
+  background-color: transparent;
+  height: 0.1vw;
+  object-fit: cover;
+  position: absolute;
+}
+
+.x404-web .line-4 {
+  background-color: transparent;
+  height: 0.1vw;
+  object-fit: cover;
+  position: absolute;
+}
+
+.x404-web .line-5 {
+  background-color: transparent;
+  object-fit: cover;
+  position: absolute;
+}
+
+.x404-web .line-7 {
+  background-color: transparent;
+  object-fit: cover;
+  position: absolute;
+}
+
+.x404-web .line-8 {
+  background-color: transparent;
+  height: 0.1vw;
+  object-fit: cover;
+  position: absolute;
+}
+
+.x404-web .line-9 {
+  background-color: transparent;
+  height: 0.1vw;
+  object-fit: cover;
+  position: absolute;
+}
+
+.x404-web .x4 {
+  background-color: transparent;
+  color: var(--brandbrandorange);
+  font-family: var(--font-family-space_grotesk);
+  font-size: 26.15vw;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  letter-spacing: 0.0vw;
+  line-height: 28.49vw;
+  position: absolute;
+  text-align: left;
+  top: 2.15vw;
+  white-space: nowrap;
+  width: auto;
+}
