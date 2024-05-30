@@ -8,7 +8,6 @@
   gap: 0.8vw;
   justify-content: center;
   left: 0vw;
-  min-width: 100vw;
   overflow-x: hidden;
   position: relative;
   top: 0vw;
@@ -16,14 +15,14 @@
 
 .blogmobile .blog-article-MrBmd1 {
   background-color: transparent;
-  height: 310.13vw;
+  height: 248.13vw;
   position: relative;
   width: 100vw;
 }
 
 .blogmobile .hero-r8eZLz {
   background-color: var(--general-colormidnight-blue---hero-section);
-  height: 310.13vw;
+  height: 248.13vw;
   left: 0vw;
   overflow: hidden;
   position: absolute;
@@ -158,7 +157,7 @@
   display: flex;
   justify-content: space-between;
   left: 0vw;
-  padding: 6.4vw;
+  padding: 4vw 5vw;
   position: absolute;
   top: 0vw;
   width: 100vw;
@@ -166,33 +165,131 @@
 
 .blogmobile .group-xVG8St {
   background-color: transparent;
-  height: 12vw;
+  height: 10vw;
   position: relative;
-  width: 19.41vw;
+  width: 15vw;
 }
 
 .blogmobile .logo-3s2jip {
   background-color: transparent;
-  height: 12vw;
+  height: 100%;
   left: 0vw;
   position: relative;
   top: 0vw;
-  width: 19.47vw;
+  width: 100%;
 }
 
 .blogmobile .bharat-logo-Wdrm5d {
   background-color: transparent;
-  height: 12vw;
   left: 0vw;
   position: absolute;
   top: 0vw;
-  width: 19.47vw;
+  width: 100%;
 }
 
 .blogmobile .button-xVG8St {
   flex: 0 0 auto;
-  padding: 4.27vw 8.53vw;
+  cursor: pointer;
+  transition: 0.5s all;
+  border: 2px solid #ef856e;
+  background-color: transparent;
+  letter-spacing: 0vw;
+  line-height: 1.5vw;
+  margin-top: -0.06vw;
+  position: relative;
+  text-align: right;
+  white-space: nowrap;
+  width: fit-content;
+  align-items: center;
+  background-color: var(--brandbrandorange);
+  border-radius: 3.75vw;
+  justify-content: center;
+  padding: 1.5vw 4vw;
 }
+
+.blogmobile .button-xVG8St:hover {
+  background-color: #093753;
+  border: 2px solid #ef856e;
+}
+
+
+.blogmobile .contact-me-hamburger {
+  display: flex;
+  align-items: center;
+  gap: 3vw;
+}
+
+.blogmobile .hamburger-icon {
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.blogmobile .hamburger-icon:hover {
+  opacity: 0.5;
+}
+
+.blogmobile .contact-me-hamburger svg {
+  color: #FFF;
+}
+
+/* ---------------------------------  */
+body.mobile-menu-off .fixed-mobile-nav {
+  display: none;
+}
+.blogmobile .fixed-mobile-nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #093753;
+  z-index: 500;
+}
+
+.blogmobile .fixed-mobile-nav .times-icon {
+  position: fixed;
+  right: 5vw;
+  top: 5vw;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.blogmobile .fixed-mobile-nav .times-icon:hover {
+  opacity: 0.5;
+}
+
+.blogmobile .fixed-mobile-nav .times-icon svg {
+  color: #FFF;
+}
+
+.blogmobile .fixed-mobile-nav .nav-items {
+  text-align: center;
+  margin-top: 15vw;
+}
+
+.blogmobile .fixed-mobile-nav .nav-items div {
+  margin: 2vw;
+}
+
+
+.blogmobile .fixed-mobile-nav .nav-items a {
+  transition: 0.3s;
+  cursor: pointer;
+  display: block;
+  padding: 5vw;
+  font-size: 5vw;
+}
+.blogmobile .fixed-mobile-nav .nav-items a:hover {
+  opacity: 0.5;
+}
+
+.blogmobile .fixed-mobile-nav .nav-items a,
+.blogmobile .fixed-mobile-nav .nav-items a:visited,
+.blogmobile .fixed-mobile-nav .nav-items a:active {
+  text-decoration: none;
+  color: #fff;
+}
+/* ---------------------------------------  */
 
 .blogmobile .frame-1000001792-bLj8OE {
   align-items: flex-start;
@@ -201,7 +298,8 @@
   gap: 8.53vw;
   left: 33.33vw;
   position: absolute;
-  top: 287.47vw;
+  top: 220vw !important;
+  justify-content: center;
 }
 
 .blogmobile .ellipse-2992-euhWa1 {
@@ -229,9 +327,10 @@
 }
 
 .blogmobile .article-bLj8OE {
-  left: 6.93vw;
+  left: 50%;
+  transform: translateX(-50%);
   position: absolute;
-  top: 132.27vw;
+  top: 80vw;
 }
 
 .blogmobile .img-NP6Kq9 {
@@ -265,9 +364,10 @@
 .blogmobile .lorem-ipsum-dolor-si-mxRY5X {
   color: #b9b9b9;
   font-family: var(--font-family-space_grotesk);
-  font-size: var(--font-size-m);
+  font-size: var(--font-size-l);
   font-style: normal;
   font-weight: 400;
+  line-height: 5vw !important;
 }
 
 .blogmobile .title-r8eZLz {
@@ -275,10 +375,11 @@
   background-color: transparent;
   display: inline-flex;
   flex-direction: column;
-  gap: 4.27vw;
+  gap: 3vw;
   left: 6.4vw;
   position: absolute;
-  top: 68.27vw;
+  top: 40vw;
+  z-index: 10;
 }
 
 .blogmobile .title-KvxF4H {
@@ -294,11 +395,12 @@
 .blogmobile .here-are-the-reasons-KvxF4H {
   background-color: transparent;
   letter-spacing: 0vw;
-  line-height: 6.93vw;
+  line-height: 4vw;
   opacity: 0.8;
   position: relative;
   text-align: center;
   width: 87.2vw;
+  font-size: 3vw;
 }
 
 .blogmobile .img-r8eZLz {
@@ -306,7 +408,7 @@
   height: 29.33vw;
   left: 26.4vw;
   position: absolute;
-  top: 29.87vw;
+  top: 22vw;
   width: 46.67vw;
 }
 
@@ -315,24 +417,30 @@
   background-color: transparent;
   display: flex;
   flex-direction: column;
-  height: 611.47vw;
+  /* height: 400vw; */
+  height: auto;
   position: relative;
   width: 100vw;
 }
 
 .blogmobile .tabs-filter-eXxrRt {
   align-items: center;
-  background: linear-gradient(180deg);
+  background: linear-gradient(to right, #ffe5d9, #fff);
   background-color: transparent;
   display: inline-flex;
   flex: 0 0 auto;
-  gap: 14.93vw;
+  gap: 2vw;
   justify-content: center;
   margin-right: -63.2vw;
   opacity: 0.7;
   overflow: hidden;
-  padding: 8.53vw 6.4vw;
+  padding: 5vw 5vw;
   position: relative;
+  width: 100%;
+}
+
+.blogmobile .tabs-filter-eXxrRt img {
+  width: 4vw;
 }
 
 .blogmobile .frame-1000001864-xxS0Th {
@@ -404,7 +512,7 @@
   flex-direction: column;
   gap: 8.53vw;
   margin-bottom: -5.07vw;
-  padding: 14.93vw 6.4vw;
+  padding: 10vw 6.4vw;
   position: relative;
   width: 100vw;
 }
@@ -426,7 +534,6 @@
   gap: 2.67vw;
   justify-content: center;
   overflow: hidden;
-  padding: 2.67vw;
   position: relative;
 }
 
@@ -509,8 +616,9 @@
 }
 
 .blogmobile .button-Cqz8Nh {
-  height: 19.2vw;
-  padding: 6.4vw 8.53vw;
+  /* height: 19.2vw; */
+  padding: 2vw 6vw;
+  margin: 5vw 6.4vw;
 }
 
 .blogmobile .footer-MrBmd1 {
@@ -527,7 +635,7 @@
   background-color: transparent;
   display: inline-flex;
   flex-direction: column;
-  gap: 6.4vw;
+  gap: 5vw;
 }
 
 .blogmobile .button {
@@ -622,10 +730,11 @@
   align-self: stretch;
   background-color: transparent;
   letter-spacing: 0vw;
-  line-height: 11.2vw;
   margin-top: -0.27vw;
   position: relative;
   text-align: justify;
+  line-height: 7vw;
+  font-size: 5vw;
 }
 
 .blogmobile .text {
@@ -640,11 +749,15 @@
   width: 100%;
 }
 
+.blogmobile .text.slider-text-mb {
+  gap: 2vw;
+}
+
 .blogmobile .tips-on-choosing-a-university {
   align-self: stretch;
   background-color: transparent;
   letter-spacing: 0vw;
-  line-height: 11.2vw;
+  line-height: 8vw;
   margin-top: -0.27vw;
   position: relative;
   text-align: justify;
@@ -877,9 +990,9 @@
 .blogtablet .bharat-logo-r3PyoV {
   background-color: transparent;
   height: 5.37vw;
-  left: -1605.96vw;
+  left: 0vw;
   position: absolute;
-  top: -222.66vw;
+  top: 0vw;
   width: 8.69vw;
 }
 
@@ -926,9 +1039,43 @@
   width: fit-content;
 }
 
+.blogtablet .home-zGf3K6,
+.blogtablet .blog-zGf3K6,
+.blogtablet .download-resume-zGf3K6 {
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.blogtablet .home-zGf3K6:hover,
+.blogtablet .blog-zGf3K6:hover,
+.blogtablet .download-resume-zGf3K6:hover {
+  opacity: 0.5;
+}
+
+.blogtablet .home-zGf3K6 a,
+.blogtablet .home-zGf3K6 a:visited,
+.blogtablet .home-zGf3K6 a:active,
+.blogtablet .blog-zGf3K6 a,
+.blogtablet .blog-zGf3K6 a:visited,
+.blogtablet .blog-zGf3K6 a:active,
+.blogtablet .download-resume-zGf3K6 a,
+.blogtablet .download-resume-zGf3K6 a:visited,
+.blogtablet .download-resume-zGf3K6 a:active {
+  text-decoration: none;
+  color: #fff;
+}
+
 .blogtablet .button-GHiu8C {
   flex: 0 0 auto;
   padding: 1.56vw 3.12vw;
+  cursor: pointer;
+  transition: 0.5s all;
+  border: 2px solid #ef856e;
+}
+
+.blogtablet .button-GHiu8C:hover {
+  background-color: #093753;
+  border: 2px solid #ef856e;
 }
 
 .blogtablet .large-article-4LavHn {
@@ -1006,7 +1153,8 @@
   gap: 3.12vw;
   left: 43.95vw;
   position: absolute;
-  top: 68.36vw;
+  justify-content: center;
+  top: 67vw !important;
 }
 
 .blogtablet .ellipse-2992-46pGx8 {
@@ -1047,7 +1195,7 @@
 
 .blogtablet .tabs-filter-y3K2vc {
   align-items: center;
-  background: linear-gradient(180deg);
+  background: linear-gradient(to right, #ffe5d9, #fff);
   background-color: transparent;
   display: inline-flex;
   flex: 0 0 auto;
@@ -1057,6 +1205,11 @@
   opacity: 0.7;
   padding: 5.47vw 7.03vw;
   position: relative;
+}
+
+.blogtablet .tabs-filter-y3K2vc.tablet-tab-filter {
+  gap: 2vw;
+  width: 100%;
 }
 
 .blogtablet .frame-1000001867-5e5u5a {
@@ -1133,12 +1286,11 @@
 }
 
 .blogtablet .frame-1000001800-ejSj9c {
-  align-items: flex-start;
   background-color: transparent;
-  display: inline-flex;
-  flex: 0 0 auto;
-  gap: 16.02vw;
   position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 7vw;
 }
 
 .blogtablet .img-otEDFi {
@@ -1809,15 +1961,24 @@
   gap: 2vw;
   left: 46.12vw;
   position: absolute;
-  top: 59.88vw;
+  justify-content: center;
+  top: 60vw !important;
 }
 
+.blogmobile .swiper-bullet,
+.blogtablet .swiper-bullet,
+.blogweb-all-breakpoints .swiper-bullet,
 .blogweb-all-breakpoints .ellipse-2992-6SmuXm {
   background-color: var(--general-color3);
   border-radius: 0.62vw;
   height: 1.25vw;
   position: relative;
   width: 1.25vw;
+}
+.blogmobile .swiper-bullet {
+  height: 3vw;
+  width: 3vw;
+  border-radius: 5vw;
 }
 
 .blogweb-all-breakpoints .ellipse-2993-6SmuXm {
@@ -1957,7 +2118,8 @@
 
 .blogweb-all-breakpoints .tabs-filter-x81WWe {
   align-items: center;
-  background: linear-gradient(180deg);
+  /* background: linear-gradient(180deg); */
+  background: linear-gradient(to right, #ffe5d9, #fff);
   background-color: transparent;
   display: flex;
   flex: 0 0 auto;
@@ -1970,13 +2132,34 @@
   width: 100vw;
 }
 
+.blogmobile .active-ET1Uua,
+.blogtablet .active-ET1Uua,
 .blogweb-all-breakpoints .active-ET1Uua {
   align-items: center;
   background-color: transparent;
   display: inline-flex;
   flex: 0 0 auto;
-  gap: 3.5vw;
+  gap: 2vw;
   position: relative;
+  cursor: pointer;
+  user-select: none;
+}
+
+.blogmobile .active-ET1Uua,
+.blogtablet .active-ET1Uua {
+  gap: 1vw;
+}
+
+.blogtablet .active-ET1Uua * ,
+.blogweb-all-breakpoints .active-ET1Uua * {
+  
+  color: #093753 !important;
+}
+
+.blogmobile .active-ET1Uua.active * ,
+.blogtablet .active-ET1Uua.active * ,
+.blogweb-all-breakpoints .active-ET1Uua.active * {
+  color: #ef856e !important;
 }
 
 .blogweb-all-breakpoints .show-all-HAx4HU {
@@ -2044,14 +2227,13 @@
 }
 
 .blogweb-all-breakpoints .x1-It0BQx {
-  align-items: flex-start;
   background-color: transparent;
-  display: inline-flex;
-  flex: 0 0 auto;
-  gap: 10.25vw;
   margin-left: -0.86vw;
   margin-right: -0.86vw;
   position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 7vw;
 }
 
 .blogweb-all-breakpoints .img-EYcDDz {
@@ -2179,16 +2361,6 @@
   text-align: justify;
 }
 
-.blogweb-all-breakpoints .x2-It0BQx {
-  align-items: flex-start;
-  background-color: transparent;
-  display: inline-flex;
-  flex: 0 0 auto;
-  gap: 10.25vw;
-  margin-left: -0.22vw;
-  margin-right: -0.22vw;
-  position: relative;
-}
 
 .blogweb-all-breakpoints .img-RsrSLL {
   background-color: transparent;
@@ -2547,7 +2719,10 @@
 
 .blogweb-all-breakpoints .button-FLrrbD,
 .blogweb-all-breakpoints .btn-view-more,
-.blogweb-all-breakpoints .btn-read-more {
+.blogweb-all-breakpoints .btn-read-more,
+.blogtablet .btn-view-more,
+.blogmobile .btn-view-more,
+.blogtablet .btn-read-more {
   cursor: pointer;
   transition: 0.5s all;
   border: 2px solid #ef856e;
@@ -2556,13 +2731,23 @@
 
 .blogweb-all-breakpoints .button-FLrrbD:hover,
 .blogweb-all-breakpoints .btn-view-more:hover,
-.blogweb-all-breakpoints .btn-read-more:hover {
+.blogweb-all-breakpoints .btn-read-more:hover,
+.blogtablet .btn-view-more:hover,            
+.blogmobile .btn-view-more:hover,            
+.blogtablet .btn-read-more:hover {
   background-color: #FFF;
   border: 2px solid #ef856e;
 }
 
+.blogweb-all-breakpoints .btn-read-more.in-slider:hover,
+.blogtablet .btn-read-more.in-slider:hover {
+  background-color: #093753;
+}
+
 .blogweb-all-breakpoints .button-FLrrbD:hover *,
 .blogweb-all-breakpoints .btn-view-more:hover *,
+.blogtablet .btn-view-more:hover *,
+.blogmobile .btn-view-more:hover *,
 .blogweb-all-breakpoints .btn-read-more:hover * {
   color: #ef856e;
 }

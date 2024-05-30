@@ -2,7 +2,8 @@
 
 .homepagemobile {
   background-color: var(--bckgroundbg-cultured);
-  height: 2652vw;
+  height: 2121vw;
+  /* height: 2000vw; */
   overflow: hidden;
   overflow-x: hidden;
   position: relative;
@@ -11,7 +12,8 @@
 
 .homepagemobile .hero-informatic-enginering-rA1xVt {
   background-color: var(--general-colormidnight-blue---hero-section);
-  height: 224.8vw;
+  /* height: 224.8vw; */
+  height: 200vw;
   left: 0vw;
   overflow: hidden;
   position: absolute;
@@ -146,7 +148,7 @@
   display: flex;
   justify-content: space-between;
   left: 0vw;
-  padding: 6.4vw;
+  padding: 4vw 5vw;
   position: absolute;
   top: 0vw;
   width: 100vw;
@@ -154,33 +156,130 @@
 
 .homepagemobile .group-IIZKpG {
   background-color: transparent;
-  height: 12vw;
+  height: 10vw;
   position: relative;
-  width: 19.41vw;
+  width: 15vw;
 }
 
 .homepagemobile .logo-8UYddd {
   background-color: transparent;
-  height: 12vw;
+  height: 100%;
   left: 0vw;
   position: relative;
   top: 0vw;
-  width: 19.47vw;
+  width: 100%;
 }
 
 .homepagemobile .bharat-logo-ixXglx {
   background-color: transparent;
-  height: 12vw;
   left: 0vw;
   position: absolute;
   top: 0vw;
-  width: 19.47vw;
+  width: 100%;
 }
 
 .homepagemobile .button-IIZKpG {
   flex: 0 0 auto;
-  padding: 4.27vw 8.53vw;
+  cursor: pointer;
+  transition: 0.5s all;
+  border: 2px solid #ef856e;
+  background-color: transparent;
+  letter-spacing: 0vw;
+  line-height: 1.5vw;
+  margin-top: -0.06vw;
+  position: relative;
+  text-align: right;
+  white-space: nowrap;
+  width: fit-content;
+  align-items: center;
+  background-color: var(--brandbrandorange);
+  border-radius: 3.75vw;
+  justify-content: center;
+  padding: 1.5vw 4vw;
 }
+
+.homepagemobile .button-IIZKpG:hover {
+  background-color: #093753;
+  border: 2px solid #ef856e;
+}
+
+.homepagemobile .contact-me-hamburger {
+  display: flex;
+  align-items: center;
+  gap: 3vw;
+}
+
+.homepagemobile .hamburger-icon {
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.homepagemobile .hamburger-icon:hover {
+  opacity: 0.5;
+}
+
+.homepagemobile .contact-me-hamburger svg {
+  color: #FFF;
+}
+
+/* ---------------------------------  */
+body.mobile-menu-off .fixed-mobile-nav {
+  display: none;
+}
+.homepagemobile .fixed-mobile-nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #093753;
+  z-index: 500;
+}
+
+.homepagemobile .fixed-mobile-nav .times-icon {
+  position: fixed;
+  right: 5vw;
+  top: 5vw;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.homepagemobile .fixed-mobile-nav .times-icon:hover {
+  opacity: 0.5;
+}
+
+.homepagemobile .fixed-mobile-nav .times-icon svg {
+  color: #FFF;
+}
+
+.homepagemobile .fixed-mobile-nav .nav-items {
+  text-align: center;
+  margin-top: 15vw;
+}
+
+.homepagemobile .fixed-mobile-nav .nav-items div {
+  margin: 2vw;
+}
+
+
+.homepagemobile .fixed-mobile-nav .nav-items a {
+  transition: 0.3s;
+  cursor: pointer;
+  display: block;
+  padding: 5vw;
+  font-size: 5vw;
+}
+.homepagemobile .fixed-mobile-nav .nav-items a:hover {
+  opacity: 0.5;
+}
+
+.homepagemobile .fixed-mobile-nav .nav-items a,
+.homepagemobile .fixed-mobile-nav .nav-items a:visited,
+.homepagemobile .fixed-mobile-nav .nav-items a:active {
+  text-decoration: none;
+  color: #fff;
+}
+/* ---------------------------------------  */
 
 .homepagemobile .title-mKhs31 {
   align-items: flex-start;
@@ -190,7 +289,7 @@
   gap: 4.27vw;
   left: 6.4vw;
   position: absolute;
-  top: 152.27vw;
+  top: 138.27vw;
 }
 
 .homepagemobile .lets-innovate-together-GGS16o {
@@ -201,16 +300,18 @@
   position: relative;
   text-align: center;
   width: 87.2vw;
+  font-size: 8vw;
 }
 
 .homepagemobile .i-specialize-in-rapi-GGS16o {
   background-color: transparent;
-  letter-spacing: 0vw;
+  letter-spacing: 0.1vw;
   line-height: 6.93vw;
   opacity: 0.8;
   position: relative;
   text-align: center;
   width: 87.2vw;
+  font-size: 3vw;
 }
 
 .homepagemobile .img-mKhs31 {
@@ -218,7 +319,7 @@
   height: 100.8vw;
   left: 6.4vw;
   position: absolute;
-  top: 38.4vw;
+  top: 25vw;
   width: 87.2vw;
 }
 
@@ -307,7 +408,7 @@
   height: 2064.8vw;
   left: 0vw;
   position: absolute;
-  top: 224.8vw;
+  top: 190vw;
 }
 
 .homepagemobile .feature-Gh30Zm {
@@ -315,9 +416,9 @@
   background-color: var(--bckgroundbg-cultured);
   display: flex;
   flex-direction: column;
-  gap: 14.93vw;
-  height: 330.13vw;
-  padding: 14.93vw 0vw;
+  gap: 7vw;
+  height: 263.13vw;
+  padding: 10vw 0vw;
   position: relative;
   width: 100vw;
 }
@@ -339,7 +440,7 @@
 
 .homepagemobile .feature-cards-zcxAWs {
   background-color: transparent;
-  height: 33.33vw;
+  height: 30vw;
   position: relative;
   width: 64.27vw;
 }
@@ -362,7 +463,7 @@
 
 .homepagemobile .feature-cards-GeJf4j {
   background-color: transparent;
-  height: 33.33vw;
+  height: 30vw;
   position: relative;
   width: 64.27vw;
 }
@@ -403,11 +504,12 @@
 
 .homepagemobile .x1st-place-SLITVA {
   position: relative;
+  margin-top: 5vw;
 }
 
 .homepagemobile .feature-cards-5Aj8wl {
   background-color: transparent;
-  height: 33.33vw;
+  height: 30vw;
   position: relative;
   width: 64.27vw;
 }
@@ -427,7 +529,7 @@
   height: auto;
   left: 0vw;
   letter-spacing: 0vw;
-  line-height: 7.47vw;
+  line-height: 0vw;
   position: absolute;
   text-align: center;
   top: 25.6vw;
@@ -436,7 +538,7 @@
 
 .homepagemobile .feature-cards-FQOHgV {
   background-color: transparent;
-  height: 33.33vw;
+  height: 30vw;
   position: relative;
   width: 64.27vw;
 }
@@ -456,7 +558,7 @@
 
 .homepagemobile .feature-cards-MhRbkb {
   background-color: transparent;
-  height: 33.33vw;
+  height: 30vw;
   margin-bottom: -9.87vw;
   position: relative;
   width: 64.27vw;
@@ -477,7 +579,7 @@
   height: auto;
   left: 0.27vw;
   letter-spacing: 0vw;
-  line-height: 7.47vw;
+  line-height: 0vw;
   position: absolute;
   text-align: center;
   top: 25.6vw;
@@ -486,7 +588,7 @@
 
 .homepagemobile .rapid-prototyping-Gh30Zm {
   background-color: #f7f5ed;
-  height: 161.6vw;
+  height: 90vw;
   position: relative;
   width: 100vw;
 }
@@ -495,7 +597,7 @@
   background-color: transparent;
   color: var(--general-colormidnight-blue---hero-section);
   font-family: var(--font-family-space_grotesk);
-  font-size: 11.2vw;
+  font-size: 9vw;
   font-style: normal;
   font-weight: 700;
   height: auto;
@@ -540,10 +642,10 @@
   background-color: transparent;
   display: flex;
   flex-direction: column;
-  gap: 6.4vw;
+  gap: 2vw;
   left: 6.4vw;
   position: absolute;
-  top: 72.8vw;
+  top: 55vw;
   width: 87.2vw;
 }
 
@@ -551,21 +653,23 @@
   align-self: stretch;
   background-color: transparent;
   letter-spacing: 0vw;
-  line-height: 6.93vw;
   margin-top: -0.27vw;
   opacity: 0.8;
   position: relative;
   text-align: left;
+  line-height: 4vw;
+  font-size: 2.5vw;
 }
 
 .homepagemobile .award-winning-proble-NNcJ61 {
   align-self: stretch;
   background-color: transparent;
   letter-spacing: 0vw;
-  line-height: 6.93vw;
   opacity: 0.8;
   position: relative;
   text-align: left;
+  line-height: 4vw;
+  font-size: 2.5vw;
 }
 
 .homepagemobile .img-ohMbek {
@@ -640,28 +744,30 @@
   display: inline-flex;
   flex: 0 0 auto;
   flex-direction: column;
-  gap: 4.27vw;
+  gap: 2vw;
   position: relative;
 }
 
 .homepagemobile .sick-seats-silent-seat-bidding-ZpPxfn {
   background-color: transparent;
   letter-spacing: 0vw;
-  line-height: 12.27vw;
+  line-height: 7vw;
   margin-top: -0.27vw;
   position: relative;
   text-align: left;
   width: 87.2vw;
+  font-size: 5vw;
 }
 
 .homepagemobile .elevate-your-event-e-ZpPxfn {
   background-color: transparent;
   letter-spacing: 0vw;
-  line-height: 6.93vw;
   opacity: 0.8;
   position: relative;
   text-align: left;
   width: 87.2vw;
+  font-size: 3vw;
+  line-height: 5vw;
 }
 
 .homepagemobile .list-vissXn {
@@ -690,11 +796,12 @@
 .homepagemobile .real-time-data-streaming-Fw6ARj {
   background-color: transparent;
   letter-spacing: 0vw;
-  line-height: 6.4vw;
   margin-right: -5.73vw;
   position: relative;
   text-align: left;
   width: fit-content;
+  line-height: 4vw;
+  font-size: 3vw;
 }
 
 .homepagemobile .frame-1000001806-46A4hz {
@@ -711,18 +818,19 @@
 .homepagemobile .scalable-solution-powered-by-aws-9ACahi {
   background-color: transparent;
   letter-spacing: 0vw;
-  line-height: 6.4vw;
   margin-right: -10vw;
   position: relative;
   text-align: left;
   width: fit-content;
+  line-height: 4vw;
+  font-size: 3vw;
 }
 
 .homepagemobile .snap-cook-Gh30Zm {
   background-color: var(--bckgroundbg-cultured);
   flex: 0 0 auto;
   gap: 8.53vw;
-  padding: 14.93vw 6.4vw;
+  padding: 0 6.4vw;
   position: relative;
   width: 100vw;
 }
@@ -803,44 +911,45 @@
   display: inline-flex;
   flex: 0 0 auto;
   flex-direction: column;
-  gap: 4.27vw;
+  gap: 3vw;
   position: relative;
 }
 
 .homepagemobile .snap-cook-photo-to-recipe-UvIMVU {
   background-color: transparent;
   letter-spacing: 0vw;
-  line-height: 12.27vw;
   margin-top: -0.27vw;
   position: relative;
   text-align: left;
   width: 87.2vw;
+  font-size: 5vw;
+  line-height: 7vw;
 }
 
 .homepagemobile .snap-a-photo-of-your-UvIMVU {
   background-color: transparent;
   letter-spacing: 0vw;
-  line-height: 6.93vw;
   opacity: 0.8;
   position: relative;
   text-align: left;
   width: 87.2vw;
+  font-size: 3vw;
+  line-height: 5vw;
 }
 
 .homepagemobile .button-lAW2Yz {
-  height: 19.2vw;
-  padding: 6.4vw 8.53vw;
+  padding: 3vw 8.53vw;
 }
 
 .homepagemobile .img-8imnqc {
   background-color: transparent;
-  height: 92vw;
+  height: 100vw;
   position: relative;
   width: 87.2vw;
 }
 
 .homepagemobile .frame-1000001720-rTpJyE {
-  height: 101.07vw;
+  height: 114.07vw;
   left: -4vw;
   top: -9.07vw;
   width: 104.53vw;
@@ -933,28 +1042,30 @@
   display: inline-flex;
   flex: 0 0 auto;
   flex-direction: column;
-  gap: 4.27vw;
+  gap: 3vw;
   position: relative;
 }
 
 .homepagemobile .click-brain-automated-ai-seo-EsxufZ {
   background-color: transparent;
   letter-spacing: 0vw;
-  line-height: 12.27vw;
   margin-top: -0.27vw;
   position: relative;
   text-align: left;
   width: 87.2vw;
+  font-size: 5vw;
+  line-height: 7vw;
 }
 
 .homepagemobile .say-goodbye-to-the-g-EsxufZ {
   background-color: transparent;
   letter-spacing: 0vw;
-  line-height: 6.93vw;
   opacity: 0.8;
   position: relative;
   text-align: left;
   width: 87.2vw;
+  font-size: 3vw;
+  line-height: 5vw;
 }
 
 .homepagemobile .certifiedby-aws-Gh30Zm {
@@ -1142,26 +1253,28 @@
 .homepagemobile .certified-by-amazon-web-services-Cssu06 {
   background-color: transparent;
   letter-spacing: 0vw;
-  line-height: 12.27vw;
   margin-top: -0.27vw;
   position: relative;
   text-align: left;
   width: 87.2vw;
+  font-size: 5vw;
+  line-height: 7vw;
 }
 
 .homepagemobile .equipped-with-6-aws-Cssu06 {
   background-color: transparent;
   letter-spacing: 0vw;
-  line-height: 6.93vw;
   opacity: 0.8;
   position: relative;
   text-align: left;
   width: 87.2vw;
+  font-size: 3vw;
+  line-height: 5vw;
 }
 
 .homepagemobile .va-text2-serve-Gh30Zm {
   background-color: var(--general-colormidnight-blue---hero-section);
-  height: 317.33vw;
+  height: 280vw;
   overflow: hidden;
   position: relative;
   width: 100vw;
@@ -1421,7 +1534,7 @@
   background-color: transparent;
   color: var(--general-color3);
   font-family: var(--font-family-space_grotesk);
-  font-size: 11.2vw;
+  font-size: 10vw;
   font-style: normal;
   font-weight: 700;
   letter-spacing: 0vw;
@@ -1435,7 +1548,8 @@
 .homepagemobile .empower-your-volunte-xEexw7 {
   background-color: transparent;
   letter-spacing: 0vw;
-  line-height: 6.93vw;
+  line-height: 5vw;
+  font-size: 3vw;
   opacity: 0.8;
   position: relative;
   text-align: left;
@@ -1464,11 +1578,12 @@
 .homepagemobile .web-development-5xOcwf {
   background-color: transparent;
   letter-spacing: 0vw;
-  line-height: 6.93vw;
   position: relative;
   text-align: left;
   white-space: nowrap;
   width: fit-content;
+  line-height: 5vw;
+  font-size: 2.5vw;
 }
 
 .homepagemobile .frame-1000001818-DxmPAB {
@@ -1484,11 +1599,12 @@
 .homepagemobile .brand-strategy-UZMHjP {
   background-color: transparent;
   letter-spacing: 0vw;
-  line-height: 6.4vw;
   position: relative;
   text-align: left;
   white-space: nowrap;
   width: fit-content;
+  line-height: 5vw;
+  font-size: 2.5vw;
 }
 
 .homepagemobile .frame-1000001820-DxmPAB {
@@ -1504,11 +1620,12 @@
 .homepagemobile .art-direction-Q4JLU9 {
   background-color: transparent;
   letter-spacing: 0vw;
-  line-height: 6.4vw;
   margin-top: -0.27vw;
   position: relative;
   text-align: left;
   width: 37.07vw;
+  line-height: 5vw;
+  font-size: 2.5vw;
 }
 
 .homepagemobile .banner-nkYuBu {
@@ -1569,10 +1686,10 @@
   background-color: var(--bckgroundbg-cultured);
   display: flex;
   flex-direction: column;
-  gap: 8.53vw;
-  height: 553.87vw;
+  gap: 5vw;
+  height: 416.87vw;
   margin-bottom: -182.13vw;
-  padding: 14.93vw 6.4vw;
+  padding: 10vw 6.4vw;
   position: relative;
   width: 100vw;
 }
@@ -1583,28 +1700,30 @@
   display: inline-flex;
   flex: 0 0 auto;
   flex-direction: column;
-  gap: 4.27vw;
+  gap: 3vw;
   position: relative;
 }
 
 .homepagemobile .read-our-blogs-to-le-HOAQfe {
   background-color: transparent;
   letter-spacing: 0vw;
-  line-height: 12.27vw;
   margin-top: -0.27vw;
   position: relative;
   text-align: left;
   width: 87.2vw;
+  line-height: 7vw;
+  font-size: 5vw;
 }
 
 .homepagemobile .dive-into-my-blog-fo-HOAQfe {
   background-color: transparent;
   letter-spacing: 0vw;
-  line-height: 6.93vw;
   opacity: 0.8;
   position: relative;
   text-align: left;
   width: 87.2vw;
+  line-height: 5vw;
+  font-size: 3vw;
 }
 
 .homepagemobile .img-xb2RxZ {
@@ -1632,7 +1751,7 @@
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
-  gap: 2.13vw;
+  gap: 3vw;
   position: relative;
   width: 100%;
 }
@@ -1641,10 +1760,11 @@
   align-self: stretch;
   background-color: transparent;
   letter-spacing: 0vw;
-  line-height: 11.2vw;
   margin-top: -0.27vw;
   position: relative;
   text-align: justify;
+  line-height: 7vw;
+  font-size: 5vw;
 }
 
 .homepagemobile .asking-the-right-que-maiOEm {
@@ -1654,6 +1774,8 @@
   line-height: 6.93vw;
   position: relative;
   text-align: justify;
+  line-height: 5vw;
+  font-size: 3vw;
 }
 
 .homepagemobile .img-84R410 {
@@ -1691,19 +1813,21 @@
   align-self: stretch;
   background-color: transparent;
   letter-spacing: 0vw;
-  line-height: 11.2vw;
   margin-top: -0.27vw;
   position: relative;
   text-align: justify;
+  line-height: 7vw;
+  font-size: 5vw;
 }
 
 .homepagemobile .empowering-agencies-82q0Tq {
   align-self: stretch;
   background-color: transparent;
   letter-spacing: 0vw;
-  line-height: 6.93vw;
   position: relative;
   text-align: justify;
+  line-height: 5vw;
+  font-size: 3vw;
 }
 
 .homepagemobile .article-EPUpnA {
@@ -1721,7 +1845,6 @@
   gap: 2.67vw;
   justify-content: center;
   overflow: hidden;
-  padding: 2.67vw;
   position: relative;
 }
 
@@ -1747,25 +1870,26 @@
   align-self: stretch;
   background-color: transparent;
   letter-spacing: 0vw;
-  line-height: 11.2vw;
   margin-top: -0.27vw;
   position: relative;
   text-align: justify;
+  line-height: 7vw;
+  font-size: 5vw;
 }
 
 .homepagemobile .lorem-ipsum-dolor-si-osUYCW {
   align-self: stretch;
   background-color: transparent;
   letter-spacing: 0vw;
-  line-height: 6.93vw;
   position: relative;
   text-align: justify;
+  line-height: 5vw;
+  font-size: 3vw;
 }
 
 .homepagemobile .button-TUS9d3 {
-  height: 19.2vw;
   margin-bottom: -16.8vw;
-  padding: 6.4vw 8.53vw;
+  padding: 3vw 8.53vw;
 }
 
 .homepagemobile .footer-rA1xVt {
@@ -1773,7 +1897,7 @@
   height: 201.6vw;
   left: 0vw;
   position: absolute;
-  top: 2450.4vw;
+  top: 1920vw;
   width: 100vw;
 }
 
@@ -1837,7 +1961,7 @@
   flex: 0 0 auto;
   flex-direction: column;
   gap: 8.53vw;
-  padding: 14.93vw 6.4vw;
+  padding: 10vw 6.4vw;
   position: relative;
   width: 100vw;
 }
@@ -1848,7 +1972,7 @@
   display: flex;
   flex: 1;
   flex-grow: 1;
-  gap: 4.27vw;
+  gap: 3vw;
   position: relative;
 }
 
@@ -1858,7 +1982,7 @@
   display: flex;
   flex: 1;
   flex-grow: 1;
-  gap: 4.27vw;
+  gap: 3vw;
   position: relative;
 }
 
@@ -1881,7 +2005,7 @@
 .homepagemobile .hey-john-i-am-looki {
   background-color: transparent;
   font-family: var(--font-family-space_grotesk);
-  font-size: var(--font-size-xs);
+  font-size: var(--font-size-l);
   font-style: normal;
   font-weight: 400;
   height: auto;
@@ -1891,6 +2015,11 @@
   position: absolute;
   text-align: left;
   top: 0.27vw;
+}
+
+.homepagemobile .hey-john-i-am-looki-jY66w0.hey-john-i-am-looki {
+  line-height: 5vw;
+  font-size: var(--font-size-xl);
 }
 
 .homepagemobile .image {
@@ -1978,10 +2107,11 @@
   background-color: transparent;
   flex: 1;
   letter-spacing: 0vw;
-  line-height: 6.4vw;
   margin-top: -0.27vw;
   position: relative;
   text-align: left;
+  line-height: 4vw;
+  font-size: 3vw;
 }
 
 .homepagemobile .snap-cook {
@@ -1998,7 +2128,7 @@
 .homepagemobile .x1st-place {
   background-color: transparent;
   letter-spacing: 0vw;
-  line-height: 7.47vw;
+  line-height: 0vw;
   text-align: center;
   width: 64.27vw;
 }
@@ -2248,6 +2378,7 @@
   opacity: 0.8;
   position: relative;
   text-align: left;
+  font-size: 18px;
 }
 
 .homepagetablet .navbar-ZuLsT0 {
@@ -2330,9 +2461,55 @@
   width: fit-content;
 }
 
+.homepagetablet .home-gzrqiT,
+.homepagetablet .blog-gzrqiT,
+.homepagetablet .download-resume-gzrqiT {
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.homepagetablet .home-gzrqiT:hover,
+.homepagetablet .blog-gzrqiT:hover,
+.homepagetablet .download-resume-gzrqiT:hover {
+  opacity: 0.5;
+}
+
+.homepagetablet .home-gzrqiT a,
+.homepagetablet .home-gzrqiT a:visited,
+.homepagetablet .home-gzrqiT a:active,
+.homepagetablet .blog-gzrqiT a,
+.homepagetablet .blog-gzrqiT a:visited,
+.homepagetablet .blog-gzrqiT a:active,
+.homepagetablet .download-resume-gzrqiT a,
+.homepagetablet .download-resume-gzrqiT a:visited,
+.homepagetablet .download-resume-gzrqiT a:active {
+  text-decoration: none;
+  color: #fff;
+}
+
 .homepagetablet .button-IeOsTh {
   flex: 0 0 auto;
-  padding: 1.56vw 3.12vw;
+  cursor: pointer;
+  transition: 0.5s all;
+  border: 2px solid #ef856e;
+  background-color: transparent;
+  letter-spacing: 0vw;
+  line-height: 1.5vw;
+  margin-top: -0.06vw;
+  position: relative;
+  text-align: right;
+  white-space: nowrap;
+  width: fit-content;
+  align-items: center;
+  background-color: var(--brandbrandorange);
+  border-radius: 3.75vw;
+  justify-content: center;
+  padding: 1.5vw 2vw;
+}
+
+.homepagetablet .button-IeOsTh:hover {
+  background-color: #093753;
+  border: 2px solid #ef856e;
 }
 
 .homepagetablet .item-BfTRRU {
@@ -3709,9 +3886,14 @@
 }
 
 .homepagetablet .article-xzqMfe {
-  gap: 16.02vw;
+  gap: 10vw;
   margin-left: -29.04vw;
   margin-right: -29.04vw;
+}
+
+.homepagetablet .article-xzqMfe.article {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .homepagetablet .article-ro4jvx {
@@ -3839,14 +4021,15 @@
   gap: 0.98vw;
   justify-content: center;
   overflow: hidden;
-  padding: 0.98vw;
+  /* padding: 0.98vw; */
   position: relative;
+  width: 31.45vw;
 }
 
 .homepagetablet .rectangle-2481-BqIyTe {
   object-fit: cover;
   position: relative;
-  width: 18.29vw;
+  width: 100%;
 }
 
 .homepagetablet .text-PBZOD9 {
@@ -3895,11 +4078,10 @@
 }
 
 .homepagetablet .article {
-  align-items: flex-start;
   background-color: transparent;
   display: inline-flex;
   flex: 0 0 auto;
-  position: relative;
+  align-items: flex-start;
 }
 
 .homepagetablet .bg {
@@ -4562,6 +4744,7 @@
   gap: 3.75vw;
   left: 0vw;
   padding: 7.49vw 9.49vw;
+  padding-bottom: 0;
   position: absolute;
   top: 56.05vw;
   width: 99.88vw;
@@ -5942,10 +6125,10 @@
 }
 
 .homepageweb-all-breakpoints .item-fayc5m {
-  flex: 0 0 auto;
-  gap: 10.24vw;
-  margin-left: -0.58vw;
-  margin-right: -0.58vw;
+  /* flex: 0 0 auto; */
+  /* gap: 10.24vw; */
+  /* margin-left: -0.58vw;
+  margin-right: -0.58vw; */
   position: relative;
 }
 
@@ -6262,7 +6445,15 @@
 .homepageweb-all-breakpoints .item {
   align-items: flex-start;
   background-color: transparent;
-  display: inline-flex;
+  /* display: inline-flex; */
+}
+
+.homepageweb-all-breakpoints .item-fayc5m.item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
 }
 
 .homepageweb-all-breakpoints .line-3 {
@@ -6360,6 +6551,10 @@
   width: 15.04vw;
 }
 /* ---------------------------------------------------- */
+.homepagemobile .btn-join-waitlist,
+.homepagemobile .view-more-blog-post,
+.homepagetablet .btn-join-waitlist,
+.homepagetablet .view-more-blog-post,
 .homepageweb-all-breakpoints .btn-join-waitlist,
 .homepageweb-all-breakpoints .view-more-blog-post {
   cursor: pointer;
@@ -6367,11 +6562,19 @@
   border: 2px solid #ef856e;
 }
 
+.homepagemobile .btn-join-waitlist:hover,
+.homepagemobile .view-more-blog-post:hover,
+.homepagetablet .btn-join-waitlist:hover,
+.homepagetablet .view-more-blog-post:hover,
 .homepageweb-all-breakpoints .btn-join-waitlist:hover,
 .homepageweb-all-breakpoints .view-more-blog-post:hover {
   background-color: #FFF;
   border: 2px solid #ef856e;
 }
+.homepagemobile .btn-join-waitlist:hover *,
+.homepagemobile .view-more-blog-post:hover *,
+.homepagetablet .btn-join-waitlist:hover *,
+.homepagetablet .view-more-blog-post:hover *,
 .homepageweb-all-breakpoints .btn-join-waitlist:hover *,
 .homepageweb-all-breakpoints .view-more-blog-post:hover * {
   color: #ef856e;

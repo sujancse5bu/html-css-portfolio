@@ -14,7 +14,7 @@
   <link rel="stylesheet" type="text/css" href="css/globals.css" />
 </head>
 
-<body style="margin: 0; background: #fafafa">
+<body class="mobile-menu-off" style="margin: 0; background: #fafafa">
   <input type="hidden" id="anPageName" name="page" value="homepageweb-all-breakpoints" />
   <div class="container-center-horizontal">
     <div class="homepageweb-all-breakpoints screen">
@@ -479,14 +479,36 @@
             <img class="line-4-ww8i7i line-4" src="img/line-4-5.svg" alt="Line 4" />
           </div>
         </div>
+        <div class="fixed-mobile-nav">
+          <div class="nav-items">
+            <div class="valign-text-middle spacegrotesk-normal-white-16px">
+              <a class="" href="/index.html">Home</a>
+            </div>
+            <div class="valign-text-middle spacegrotesk-normal-white-16px">
+              <a class="" href="/blog.html">Blog</a>
+            </div>
+            <div class="valign-text-middle spacegrotesk-normal-white-16px">
+              <a class="" href="#">Download Resume</a>
+            </div>
+          </div>
+          <div id="times-icon" class="times-icon">
+            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 352 512" height="5vw" width="5vw" xmlns="http://www.w3.org/2000/svg"><path d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
+          </div>
+          
+        </div>
         <div class="navbar-mKhs31">
           <div class="group-IIZKpG">
             <div class="logo-8UYddd">
               <img class="bharat-logo-ixXglx" src="img/bharat-logo-1.svg" alt="Bharat Logo" />
             </div>
           </div>
-          <div class="button-IIZKpG button">
-            <div class="contact-me valign-text-middle spacegrotesk-medium-white-16px">Contact Me</div>
+          <div class="contact-me-hamburger">
+            <a href="/contact.html" class="button-IIZKpG button">
+              <div class="contact-me valign-text-middle spacegrotesk-medium-white-16px">Contact Me</div>
+            </a>
+            <div id="hamburger-icon" class="hamburger-icon">
+              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="5vw" width="5vw" xmlns="http://www.w3.org/2000/svg"><path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg>
+            </div>
           </div>
         </div>
         <div class="title-mKhs31">
@@ -639,7 +661,7 @@
                 </p>
               </div>
             </div>
-            <div class="button-lAW2Yz button">
+            <div class="button-lAW2Yz btn-join-waitlist button">
               <div class="contact-me valign-text-middle spacegrotesk-medium-white-16px">Join Waitlist</div>
             </div>
           </div>
@@ -845,7 +867,7 @@
               </p>
             </div>
           </div>
-          <div class="button-TUS9d3 button">
+          <div class="button-TUS9d3 button view-more-blog-post">
             <div class="contact-me valign-text-middle spacegrotesk-medium-white-16px">View More Blog Posts</div>
           </div>
         </div>
@@ -902,16 +924,21 @@
               <img class="bharat-logo-qmJSwZ" src="img/bharat-logo-2.svg" alt="Bharat Logo" />
             </div>
           </div>
+          <!-- -- -->
           <div class="menu-IeOsTh">
-            <a class="home-gzrqiT valign-text-middle spacegrotesk-normal-white-16px" href="/index.html">Home</a>
-            <a class="blog-gzrqiT valign-text-middle spacegrotesk-normal-white-16px" href="/blog.html">Blog</a>
+            <div class="home-gzrqiT valign-text-middle spacegrotesk-normal-white-16px">
+              <a class="" href="/index.html">Home</a>
+            </div>
+            <div class="blog-gzrqiT valign-text-middle spacegrotesk-normal-white-16px">
+              <a class="" href="/blog.html">Blog</a>
+            </div>
             <div class="download-resume-gzrqiT valign-text-middle spacegrotesk-normal-white-16px">
-              Download Resume
+              <a class="" href="#">Download Resume</a>
             </div>
           </div>
-          <div class="button-IeOsTh button">
+          <a href="/contact.html" class="button-IeOsTh button">
             <div class="contact-me valign-text-middle spacegrotesk-medium-white-16px">Contact Me</div>
-          </div>
+          </a>
         </div>
       </div>
       <div class="item-BfTRRU">
@@ -1054,7 +1081,7 @@
                   have at hand.
                 </p>
               </div>
-              <div class="button-Bi7tBW button">
+              <div class="button-Bi7tBW button btn-join-waitlist">
                 <div class="contact-me valign-text-middle spacegrotesk-medium-white-16px">Join Waitlist</div>
               </div>
             </div>
@@ -1223,13 +1250,13 @@
             </div>
             <img class="path-erfhuU" src="img/path-1.svg" alt="Path" />
           </div>
-          <div class="banner-kpbLSV">
+          <!-- <div class="banner-kpbLSV">
             <div class="bg-VwfDRt bg"></div>
             <div class="text-VwfDRt">
               <div class="graduating-may-5-2024-xVyOsb">Graduating May, 5 2024</div>
               <img class="image-258-xVyOsb" src="img/image-258.png" alt="image 258" />
             </div>
-          </div>
+          </div> -->
         </div>
         <div class="read-blogs-PoQYPU">
           <div class="text-xzqMfe">
@@ -1286,7 +1313,7 @@
               </div>
             </div>
           </div>
-          <div class="button-xzqMfe button">
+          <div class="view-more-blog-post button-xzqMfe button">
             <div class="contact-me valign-text-middle spacegrotesk-medium-white-16px">View More Blog Posts</div>
           </div>
         </div>
@@ -1294,6 +1321,15 @@
       <img class="footer-BfTRRU" src="img/footer-2.svg" alt="Footer" />
     </div>
   </div>
+
+  <script>
+    document.getElementById('hamburger-icon').addEventListener('click', function() {
+      document.body.classList.toggle('mobile-menu-off');
+    })
+    document.getElementById('times-icon').addEventListener('click', function() {
+      document.body.classList.toggle('mobile-menu-off');
+    })
+  </script>
 </body>
 
 </html>
