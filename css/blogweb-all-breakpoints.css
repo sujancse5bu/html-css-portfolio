@@ -421,6 +421,7 @@ body.mobile-menu-off .fixed-mobile-nav {
   height: auto;
   position: relative;
   width: 100vw;
+  margin-bottom: 100vw;
 }
 
 .blogmobile .tabs-filter-eXxrRt {
@@ -1283,6 +1284,7 @@ body.mobile-menu-off .fixed-mobile-nav {
   padding: 5.47vw 7.03vw;
   position: relative;
   width: 100vw;
+  margin-bottom: 30vw;
 }
 
 .blogtablet .frame-1000001800-ejSj9c {
@@ -1679,7 +1681,8 @@ body.mobile-menu-off .fixed-mobile-nav {
   flex: 0 0 auto;
   flex-direction: column;
   position: relative;
-  width: 100vw;
+  width: 100vw;   
+  margin-bottom: 32vw
 }
 
 .blogweb-all-breakpoints .blog-article-x81WWe {
@@ -2751,6 +2754,87 @@ body.mobile-menu-off .fixed-mobile-nav {
 .blogweb-all-breakpoints .btn-read-more:hover * {
   color: #ef856e;
 }
+/* ---------------------------- Footer styles ------------------------------- */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  background-color: #093753;
+  padding: 4.49vw 9.49vw;
+}
+.footer .footer-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.blogmobile .footer .footer-body,
+.blogtablet .footer .footer-body {
+  grid-template-columns: 1fr;
+}
+.footer .footer-logo {
+  margin-bottom: 2vw;
+}
+.footer .footer-desc {
+  line-height: 2vw;
+}
+.blogmobile .footer-desc {
+  line-height: 4vw;
+}
+.footer .footer-icons {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 2vw;
+  justify-content: flex-start;
+  margin: 2vw 0;
+}
+.footer .footer-icons > div {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  background-color: #ef856e;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.footer .footer-icons > div:hover {
+  opacity: 0.5;
+}
+.footer .footer-icons svg {
+  color: #fff;
+}
+.footer .footer-right {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 2vw;
+}
+.blogmobile .footer .footer-right {
+  grid-template-columns: auto;
+  gap: 4vw;
+}
+.blogmobile .footer .footer-right,
+.blogtablet .footer .footer-right {
+  justify-content: flex-start;
+  padding: 4vw 0;
+}
+.footer .footer-right a {
+  text-decoration: none;
+  color: #FFF;
+}
+.footer .copyright {
+  text-align: center;
+}
+.footer .copyright .line {
+  width: 70vw;
+  height: 1px;
+  background-color: #ef856e;
+  margin: 2vw auto;
+  margin-bottom: 5vw;
+}
+/* ----------------------------------------------------------- */
 /* --------------------------------------- */
 @media screen and (max-width: 1023px) {
   .screen.blogweb-all-breakpoints {

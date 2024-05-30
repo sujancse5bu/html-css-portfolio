@@ -127,6 +127,14 @@
   font-weight: 500;
 }
 
+.spacegrotesk-medium-white-18px {
+  color: var(--general-color3);
+  font-family: var(--font-family-space_grotesk);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 500;
+}
+
 .spacegrotesk-bold-white-58px {
   color: var(--general-color3);
   font-family: var(--font-family-space_grotesk);

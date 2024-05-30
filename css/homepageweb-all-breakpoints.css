@@ -2,8 +2,8 @@
 
 .homepagemobile {
   background-color: var(--bckgroundbg-cultured);
-  height: 2121vw;
-  /* height: 2000vw; */
+  /* height: 2121vw; */
+  height: 2000vw;
   overflow: hidden;
   overflow-x: hidden;
   position: relative;
@@ -2145,7 +2145,7 @@ body.mobile-menu-off .fixed-mobile-nav {
 
 .homepagetablet {
   background-color: var(--bckgroundbg-cultured);
-  height: 616.6vw;
+  height: 590vw;
   overflow: hidden;
   overflow-x: hidden;
   position: relative;
@@ -4345,7 +4345,7 @@ body.mobile-menu-off .fixed-mobile-nav {
 
 .homepageweb-all-breakpoints {
   background-color: var(--bckgroundbg-cultured);
-  height: 489.26vw;
+  height: 480vw;
   overflow: hidden;
   overflow-x: hidden;
   position: relative;
@@ -6580,6 +6580,86 @@ body.mobile-menu-off .fixed-mobile-nav {
   color: #ef856e;
 }
 
+/* ---------------------------- Footer styles ------------------------------- */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  background-color: #093753;
+  padding: 4.49vw 9.49vw;
+}
+.footer .footer-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.homepagemobile .footer .footer-body,
+.homepagetablet .footer .footer-body {
+  grid-template-columns: 1fr;
+}
+.footer .footer-logo {
+  margin-bottom: 2vw;
+}
+.footer .footer-desc {
+  line-height: 2vw;
+}
+.homepagemobile .footer-desc {
+  line-height: 4vw;
+}
+.footer .footer-icons {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 2vw;
+  justify-content: flex-start;
+  margin: 2vw 0;
+}
+.footer .footer-icons > div {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  background-color: #ef856e;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.footer .footer-icons > div:hover {
+  opacity: 0.5;
+}
+.footer .footer-icons svg {
+  color: #fff;
+}
+.footer .footer-right {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 2vw;
+}
+.homepagemobile .footer .footer-right {
+  grid-template-columns: auto;
+  gap: 4vw;
+}
+.homepagemobile .footer .footer-right,
+.homepagetablet .footer .footer-right {
+  justify-content: flex-start;
+  padding: 4vw 0;
+}
+.footer .footer-right a {
+  text-decoration: none;
+  color: #FFF;
+}
+.footer .copyright {
+  text-align: center;
+}
+.footer .copyright .line {
+  width: 70vw;
+  height: 1px;
+  background-color: #ef856e;
+  margin: 2vw auto;
+  margin-bottom: 5vw;
+}
 /* ----------------------------------------------------------- */
 @media screen and (max-width: 1023px) {
   .screen.homepageweb-all-breakpoints {

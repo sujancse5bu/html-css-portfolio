@@ -2,7 +2,7 @@
 
 .mobile-contact {
   background-color: transparent;
-  height: 410.4vw;
+  height: 300vw;
   overflow-x: hidden;
   position: relative;
   width: 100.0vw;
@@ -10,7 +10,7 @@
 
 .mobile-contact .form-registration-type8-Pg4JIv {
   background-color: var(--general-colormidnight-blue---hero-section);
-  height: 410.4vw;
+  height: 300vw;
   left: 0.0vw;
   overflow: hidden;
   position: relative;
@@ -22,7 +22,7 @@
   align-items: center;
   background-color: var(--general-colormidnight-blue---hero-section);
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   left: 0.0vw;
   padding: 6.4vw;
   position: absolute;
@@ -34,7 +34,7 @@
   background-color: transparent;
   height: 12.0vw;
   position: relative;
-  width: 19.41vw;
+  width: 13vw;
 }
 
 .mobile-contact .logo-FqD6uX {
@@ -43,7 +43,7 @@
   left: 0.0vw;
   position: relative;
   top: 0.0vw;
-  width: 19.47vw;
+  width: 13vw;
 }
 
 .mobile-contact .bharat-logo-yFKirY {
@@ -52,7 +52,7 @@
   left: 0.0vw;
   position: absolute;
   top: 0.0vw;
-  width: 19.47vw;
+  width: 13vw;
 }
 
 .mobile-contact .button-LAxrl7 {
@@ -632,7 +632,7 @@
 
 .tabletcontact {
   background-color: transparent;
-  height: 132.91vw;
+  height: 125vw;
   overflow-x: hidden;
   position: relative;
   width: 100.0vw;
@@ -640,7 +640,7 @@
 
 .tabletcontact .form-registration-type7-g0GqZx {
   background-color: var(--general-colormidnight-blue---hero-section);
-  height: 132.91vw;
+  height: 125vw;
   left: 0.0vw;
   overflow: hidden;
   position: relative;
@@ -652,7 +652,7 @@
   align-items: center;
   background-color: var(--general-colormidnight-blue---hero-section);
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   left: 0.0vw;
   padding: 2.34vw 7.03vw;
   position: absolute;
@@ -817,7 +817,7 @@
   gap: 4.0vw;
   left: 7.03vw;
   position: absolute;
-  top: 15.33vw;
+  top: 13.33vw;
   width: 85.94vw;
 }
 
@@ -902,10 +902,10 @@
   background-color: transparent;
   display: flex;
   flex-direction: column;
-  gap: 5.37vw;
+  gap: 2vw;
   left: 7.03vw;
   position: absolute;
-  top: 50.29vw;
+  top: 40vw;
   width: 85.94vw;
 }
 
@@ -1129,7 +1129,7 @@
 
 .web-contact-all-breakpoints {
   background-color: transparent;
-  height: 64.0vw;
+  height: 85.0vw;
   overflow-x: hidden;
   position: relative;
   width: 100.0vw;
@@ -1137,7 +1137,7 @@
 
 .web-contact-all-breakpoints .form-registration-type9-WwdiHC {
   background-color: var(--general-colormidnight-blue---hero-section);
-  height: 64.0vw;
+  height: 85.0vw;
   left: 0.0vw;
   overflow: hidden;
   position: relative;
@@ -1431,7 +1431,7 @@
   gap: 12.69vw;
   left: 9.56vw;
   position: absolute;
-  top: 17.88vw;
+  top: 10vw;
 }
 
 .web-contact-all-breakpoints .left-SrX7x3 {
@@ -1522,21 +1522,112 @@
   display: inline-flex;
   flex: 0 0 auto;
   flex-direction: column;
-  gap: 3.44vw;
+  gap: 2vw;
   position: relative;
 }
 
+.mobile-contact .contact-buttons,
+.web-contact-all-breakpoints .right-SrX7x3 .contact-buttons,
+.tabletcontact .right-3Dabhx .contact-buttons {
+  width: 100%;
+}
+
+.mobile-contact .contact-buttons > div,
+.web-contact-all-breakpoints .right-SrX7x3 .contact-buttons > div,
+.tabletcontact .right-3Dabhx .contact-buttons > div {
+  border: 1.5px solid white ;
+  border-radius: 1.5vw;
+  width: 100%;
+  margin: 1.5vw 0;
+  padding: 1vw 2vw;
+  display: grid;
+  grid-template-columns: 40px 1fr ;
+  gap: 1vw;
+  align-items: center;
+  cursor: pointer;
+}
+.mobile-contact .contact-buttons > div {
+  margin: 3vw 0;
+  padding: 2vw 3vw;
+  border-radius: 2.5vw;
+}
+.tabletcontact .right-3Dabhx .contact-buttons > div {
+  grid-template-columns: 40px 300px ;
+  justify-content: center;
+}
+.mobile-contact .add-to-contact,
+.tabletcontact .right-3Dabhx  .add-to-contact,
+.web-contact-all-breakpoints .right-SrX7x3  .add-to-contact {
+  background-color: #fff;
+}
+
+.mobile-contact  .visit-website-icon,
+.mobile-contact  .add-contact-icon,
+.mobile-contact  .connect-linkedin-icon,
+.tabletcontact .right-3Dabhx  .visit-website-icon,
+.tabletcontact .right-3Dabhx  .add-contact-icon,
+.tabletcontact .right-3Dabhx  .connect-linkedin-icon,
+.web-contact-all-breakpoints .right-SrX7x3  .visit-website-icon,
+.web-contact-all-breakpoints .right-SrX7x3  .add-contact-icon,
+.web-contact-all-breakpoints .right-SrX7x3  .connect-linkedin-icon {
+  width: 40px;
+  height: 40px;
+  border: solid 3px #093753;
+  border-radius: 4vw;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.mobile-contact  .add-contact-text,
+.tabletcontact .right-3Dabhx  .add-contact-text,
+.web-contact-all-breakpoints .right-SrX7x3  .add-contact-text {
+  color: #093753;
+}
+.mobile-contact  .visit-website-icon,
+.mobile-contact  .connect-linkedin-icon,
+.tabletcontact .right-3Dabhx  .visit-website-icon,
+.tabletcontact .right-3Dabhx  .connect-linkedin-icon,
+.web-contact-all-breakpoints .right-SrX7x3  .visit-website-icon,
+.web-contact-all-breakpoints .right-SrX7x3  .connect-linkedin-icon {
+  border-color: #fff;
+}
+.mobile-contact  .visit-website-icon svg,
+.mobile-contact .connect-linkedin-icon svg,
+.tabletcontact .right-3Dabhx  .visit-website-icon svg,
+.tabletcontact .right-3Dabhx  .connect-linkedin-icon svg,
+.web-contact-all-breakpoints .right-SrX7x3  .visit-website-icon svg,
+.web-contact-all-breakpoints .right-SrX7x3  .connect-linkedin-icon svg {
+  color: #ef856e;
+}
+.mobile-contact .add-contact-icon,
+.mobile-contact  .visit-website-icon,
+.mobile-contact .connect-linkedin-icon {
+  width: 30px;
+  height: 30px;
+  border-width: 1px;
+}
+.mobile-contact .add-contact-icon svg,
+.mobile-contact  .visit-website-icon svg,
+.mobile-contact .connect-linkedin-icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.tabletcontact .form-gTZnWd,
 .web-contact-all-breakpoints .form-gTZnWd {
-  align-items: flex-end;
   background-color: transparent;
-  display: flex;
-  flex: 0 0 auto;
-  flex-direction: column;
-  gap: 1.5vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2vw;
   position: relative;
   width: 36.56vw;
 }
 
+.tabletcontact .form-gTZnWd {
+  width: 100%;
+}
+
+.tabletcontact .frame-1000001250-byYbAK,
 .web-contact-all-breakpoints .frame-1000001250-byYbAK {
   align-items: center;
   align-self: stretch;
@@ -1552,6 +1643,7 @@
   padding: 2.0vw 1.75vw; */
 }
 
+.tabletcontact .full-name-eWQgIz,
 .web-contact-all-breakpoints .full-name-eWQgIz {
   background-color: transparent;
   letter-spacing: 0.0vw;
@@ -1569,6 +1661,13 @@
   padding: 1.0vw 1.75vw;
 }
 
+.tabletcontact .full-name-eWQgIz {
+  padding: 2.0vw 3vw;
+}
+
+.tabletcontact .full-name-eWQgIz:focus,
+.tabletcontact .full-name-eWQgIz:hover,
+.tabletcontact .full-name-eWQgIz:active,
 .web-contact-all-breakpoints .full-name-eWQgIz:focus,
 .web-contact-all-breakpoints .full-name-eWQgIz:hover,
 .web-contact-all-breakpoints .full-name-eWQgIz:active {
@@ -1576,6 +1675,7 @@
   outline: none;
 }
 
+.tabletcontact .frame-1000001251-byYbAK,
 .web-contact-all-breakpoints .frame-1000001251-byYbAK {
   align-items: center;
   align-self: stretch;
@@ -1591,6 +1691,7 @@
   padding: 2.0vw 1.75vw; */
 }
 
+.tabletcontact .phone-number-optional-xr2QQr,
 .web-contact-all-breakpoints .phone-number-optional-xr2QQr {
   background-color: transparent;
   letter-spacing: 0.0vw;
@@ -1607,7 +1708,9 @@
   outline: none;
   padding: 1.0vw 1.75vw;
 }
-
+.tabletcontact .phone-number-optional-xr2QQr:focus,
+.tabletcontact .phone-number-optional-xr2QQr:hover,
+.tabletcontact .phone-number-optional-xr2QQr:active,
 .web-contact-all-breakpoints .phone-number-optional-xr2QQr:focus,
 .web-contact-all-breakpoints .phone-number-optional-xr2QQr:hover,
 .web-contact-all-breakpoints .phone-number-optional-xr2QQr:active {
@@ -1615,6 +1718,7 @@
   outline: none;
 }
 
+.tabletcontact .frame-1000001252-byYbAK,
 .web-contact-all-breakpoints .frame-1000001252-byYbAK {
   align-items: center;
   /* height: 3.69vw; */
@@ -1645,6 +1749,7 @@
 }
 
 
+.tabletcontact .select-role-gTZnWd,
 .web-contact-all-breakpoints .select-role-gTZnWd {
   align-items: flex-start;
   background-color: transparent;
@@ -1653,6 +1758,10 @@
   flex-direction: column;
   gap: 1.44vw;
   position: relative;
+}
+
+.tabletcontact .select-role-gTZnWd {
+  width: 100%;
 }
 
 .web-contact-all-breakpoints .type-your-message-xwSFqU {
@@ -1666,6 +1775,7 @@
   width: 32.25vw;
 }
 
+.tabletcontact .frame-1000002060-xwSFqU,
 .web-contact-all-breakpoints .frame-1000002060-xwSFqU {
   align-items: flex-start;
   background-color: transparent;
@@ -1677,12 +1787,23 @@
   width: 36.0vw;
 }
 
+.tabletcontact .frame-1000002060-xwSFqU {
+  width: 100%;
+}
+
+.tabletcontact .frame-1000001252-muND3E,
 .web-contact-all-breakpoints .frame-1000001252-muND3E {
   align-items: flex-start;
   height: 9.56vw;
   border: none;
 }
 
+.tabletcontact .frame-1000001252-muND3E {
+  height: 100%;
+  padding: 0;
+}
+
+.tabletcontact .frame-1000001252-muND3E textarea,
 .web-contact-all-breakpoints .frame-1000001252-muND3E textarea {
   width: 100%;
   height: 100%;
@@ -1693,6 +1814,7 @@
   border-radius: 1.0vw;
 }
 
+.tabletcontact .message-3ICOkS,
 .web-contact-all-breakpoints .message-3ICOkS {
   background-color: transparent;
   letter-spacing: 0.0vw;
@@ -1815,11 +1937,17 @@
 /* ---------------------------------------------------- */
 .mobile-contact .btn-send-message,
 .web-contact-all-breakpoints .btn-send-message {
+  width: 100%;
+}
+.tabletcontact .btn-send-message,
+.mobile-contact .btn-send-message,
+.web-contact-all-breakpoints .btn-send-message {
   cursor: pointer;
   transition: 0.5s all;
   border: 2px solid #ef856e;
 }
 
+.tabletcontact .btn-send-message:hover,
 .mobile-contact .btn-send-message:hover,
 .web-contact-all-breakpoints .btn-send-message:hover {
   background-color: #093753;
@@ -1832,6 +1960,45 @@
 }
 
 /* ----------------------------------------------------------- */
+.contact-footer {
+  position: absolute;
+  width: 100vw;
+  bottom: 0;
+  left: 0;
+  display: grid;
+  grid-template-columns: 30vw;
+  justify-content: center;
+  gap: 3vw;
+  color: #fff;
+  text-align: justify;
+  padding: 5vw 0;
+  line-height: 2vw;
+}
+
+.mobile-contact .contact-footer {
+  grid-template-columns: 1fr;
+  padding: 0 10vw;
+  padding-bottom: 10vw;
+  text-align: justify;
+}
+
+.contact-footer .footer-logo {
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .mobile-contact {
+    height: 330vw;
+  }
+  
+  .mobile-contact .form-registration-type8-Pg4JIv {
+    height: 330vw;
+  }
+
+  .contact-footer {
+    line-height: 5vw;
+  }
+}
 
 @media screen and (max-width: 1023px) {
   .screen.web-contact-all-breakpoints {
