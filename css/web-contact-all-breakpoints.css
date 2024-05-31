@@ -1985,6 +1985,400 @@
 .contact-footer .footer-logo {
   text-align: center;
 }
+/* ------------------ NavBar Start --------------------- */
+.web-contact-all-breakpoints .navbar-ugHrVJ {
+  align-items: center;
+  background-color: var(--general-colormidnight-blue---hero-section);
+  display: flex;
+  gap: 2.68vw;
+  left: 0vw;
+  padding: 2.5vw 9.49vw;
+  position: absolute;
+  top: 0vw;
+  width: 99.88vw;
+}
+
+.web-contact-all-breakpoints .group-wZiEna {
+  background-color: transparent;
+  height: 4.55vw;
+  position: relative;
+  width: 7.36vw;
+}
+
+.web-contact-all-breakpoints .logo-xErLWI {
+  background-color: transparent;
+  height: 4.56vw;
+  left: 0vw;
+  position: relative;
+  top: 0vw;
+  width: 7.37vw;
+}
+
+.web-contact-all-breakpoints .bharat-logo-zpfzpS {
+  background-color: transparent;
+  height: 4.56vw;
+  left: 0vw;
+  position: absolute;
+  top: 0vw;
+  width: 7.37vw;
+}
+
+.web-contact-all-breakpoints .menu-wZiEna {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 3.5vw;
+  justify-content: center;
+  position: relative;
+}
+
+.web-contact-all-breakpoints .home-VT5um2 {
+  background-color: transparent;
+  letter-spacing: 0vw;
+  line-height: 1.62vw;
+  margin-top: -0.06vw;
+  position: relative;
+  text-align: right;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.web-contact-all-breakpoints .blog-VT5um2 {
+  background-color: transparent;
+  letter-spacing: 0vw;
+  line-height: 1.62vw;
+  margin-top: -0.06vw;
+  position: relative;
+  text-align: right;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.web-contact-all-breakpoints .home-VT5um2,
+.web-contact-all-breakpoints .blog-VT5um2,
+.web-contact-all-breakpoints .download-resume-VT5um2 {
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.web-contact-all-breakpoints .home-VT5um2:hover,
+.web-contact-all-breakpoints .blog-VT5um2:hover,
+.web-contact-all-breakpoints .download-resume-VT5um2:hover {
+  opacity: 0.5;
+}
+
+.web-contact-all-breakpoints .home-VT5um2 a,
+.web-contact-all-breakpoints .home-VT5um2 a:visited,
+.web-contact-all-breakpoints .home-VT5um2 a:active,
+.web-contact-all-breakpoints .blog-VT5um2 a,
+.web-contact-all-breakpoints .blog-VT5um2 a:visited,
+.web-contact-all-breakpoints .blog-VT5um2 a:active,
+.web-contact-all-breakpoints .download-resume-VT5um2 a,
+.web-contact-all-breakpoints .download-resume-VT5um2 a:visited,
+.web-contact-all-breakpoints .download-resume-VT5um2 a:active {
+  text-decoration: none;
+  color: #fff;
+}
+
+.web-contact-all-breakpoints .download-resume-VT5um2 {
+  background-color: transparent;
+  letter-spacing: 0vw;
+  line-height: 1.62vw;
+  margin-top: -0.06vw;
+  position: relative;
+  text-align: right;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.web-contact-all-breakpoints .button-wZiEna {
+  flex: 0 0 auto;
+  cursor: pointer;
+  transition: 0.5s all;
+  border: 2px solid #ef856e;
+}
+
+.web-contact-all-breakpoints .button-wZiEna:hover {
+  background-color: #093753;
+  border: 2px solid #ef856e;
+}
+/* ----------- */
+
+.tabletcontact .navbar-ZuLsT0 {
+  align-items: center;
+  background-color: var(--general-colormidnight-blue---hero-section);
+  display: flex;
+  justify-content: space-between;
+  left: 0vw;
+  padding: 2.34vw 7.03vw;
+  position: absolute;
+  top: 0vw;
+  width: 100vw;
+}
+
+.tabletcontact .group-IeOsTh {
+  background-color: transparent;
+  height: 5.37vw;
+  position: relative;
+  width: 8.69vw;
+}
+
+.tabletcontact .logo-HdIguy {
+  background-color: transparent;
+  height: 5.37vw;
+  left: 0vw;
+  position: relative;
+  top: 0vw;
+  width: 8.69vw;
+}
+
+.tabletcontact .bharat-logo-qmJSwZ {
+  background-color: transparent;
+  height: 5.37vw;
+  left: 0vw;
+  position: absolute;
+  top: 0vw;
+  width: 8.69vw;
+}
+
+.tabletcontact .menu-IeOsTh {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  padding: 0vw 13.48vw;
+  position: relative;
+  width: 59.44vw;
+}
+
+.tabletcontact .home-gzrqiT {
+  background-color: transparent;
+  letter-spacing: 0vw;
+  line-height: 2.54vw;
+  margin-top: -0.1vw;
+  position: relative;
+  text-align: right;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.tabletcontact .blog-gzrqiT {
+  background-color: transparent;
+  letter-spacing: 0vw;
+  line-height: 2.54vw;
+  margin-top: -0.1vw;
+  position: relative;
+  text-align: right;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.tabletcontact .download-resume-gzrqiT {
+  background-color: transparent;
+  letter-spacing: 0vw;
+  line-height: 2.54vw;
+  margin-top: -0.1vw;
+  position: relative;
+  text-align: right;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.tabletcontact .home-gzrqiT,
+.tabletcontact .blog-gzrqiT,
+.tabletcontact .download-resume-gzrqiT {
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.tabletcontact .home-gzrqiT:hover,
+.tabletcontact .blog-gzrqiT:hover,
+.tabletcontact .download-resume-gzrqiT:hover {
+  opacity: 0.5;
+}
+
+.tabletcontact .home-gzrqiT a,
+.tabletcontact .home-gzrqiT a:visited,
+.tabletcontact .home-gzrqiT a:active,
+.tabletcontact .blog-gzrqiT a,
+.tabletcontact .blog-gzrqiT a:visited,
+.tabletcontact .blog-gzrqiT a:active,
+.tabletcontact .download-resume-gzrqiT a,
+.tabletcontact .download-resume-gzrqiT a:visited,
+.tabletcontact .download-resume-gzrqiT a:active {
+  text-decoration: none;
+  color: #fff;
+}
+
+.tabletcontact .button-IeOsTh {
+  display: inline-flex;
+  flex: 0 0 auto;
+  cursor: pointer;
+  transition: 0.5s all;
+  border: 2px solid #ef856e;
+  background-color: transparent;
+  letter-spacing: 0vw;
+  line-height: 1.5vw;
+  margin-top: -0.06vw;
+  position: relative;
+  text-align: right;
+  white-space: nowrap;
+  width: fit-content;
+  align-items: center;
+  background-color: var(--brandbrandorange);
+  border-radius: 3.75vw;
+  justify-content: center;
+  padding: 1.5vw 2vw;
+}
+
+.tabletcontact .button-IeOsTh:hover {
+  background-color: #093753;
+  border: 2px solid #ef856e;
+}
+/* ---------------------- */
+
+.mobile-contact .navbar-mKhs31 {
+  align-items: center;
+  background-color: var(--general-colormidnight-blue---hero-section);
+  display: flex;
+  justify-content: space-between;
+  left: 0vw;
+  padding: 4vw 5vw;
+  position: absolute;
+  top: 0vw;
+  width: 100vw;
+}
+
+.mobile-contact .group-IIZKpG {
+  background-color: transparent;
+  height: 10vw;
+  position: relative;
+  width: 15vw;
+}
+
+.mobile-contact .logo-8UYddd {
+  background-color: transparent;
+  height: 100%;
+  left: 0vw;
+  position: relative;
+  top: 0vw;
+  width: 100%;
+}
+
+.mobile-contact .bharat-logo-ixXglx {
+  background-color: transparent;
+  left: 0vw;
+  position: absolute;
+  top: 0vw;
+  width: 100%;
+}
+
+.mobile-contact .button-IIZKpG {
+  flex: 0 0 auto;
+  cursor: pointer;
+  transition: 0.5s all;
+  border: 2px solid #ef856e;
+  background-color: transparent;
+  letter-spacing: 0vw;
+  line-height: 1.5vw;
+  margin-top: -0.06vw;
+  position: relative;
+  text-align: right;
+  white-space: nowrap;
+  width: fit-content;
+  align-items: center;
+  background-color: var(--brandbrandorange);
+  border-radius: 100px;
+  justify-content: center;
+  padding: 1.5vw 4vw;
+}
+
+.mobile-contact .button-IIZKpG:hover {
+  background-color: #093753;
+  border: 2px solid #ef856e;
+}
+
+.mobile-contact .contact-me-hamburger {
+  display: flex;
+  align-items: center;
+  gap: 3vw;
+}
+
+.mobile-contact .hamburger-icon {
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.mobile-contact .hamburger-icon:hover {
+  opacity: 0.5;
+}
+
+.mobile-contact .contact-me-hamburger svg {
+  color: #FFF;
+}
+
+/* -------  */
+body.mobile-menu-off .fixed-mobile-nav {
+  display: none;
+}
+.mobile-contact .fixed-mobile-nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #093753;
+  z-index: 500;
+}
+
+.mobile-contact .fixed-mobile-nav .times-icon {
+  position: fixed;
+  right: 5vw;
+  top: 5vw;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.mobile-contact .fixed-mobile-nav .times-icon:hover {
+  opacity: 0.5;
+}
+
+.mobile-contact .fixed-mobile-nav .times-icon svg {
+  color: #FFF;
+}
+
+.mobile-contact .fixed-mobile-nav .nav-items {
+  text-align: center;
+  margin-top: 15vw;
+}
+
+.mobile-contact .fixed-mobile-nav .nav-items div {
+  margin: 2vw;
+}
+
+
+.mobile-contact .fixed-mobile-nav .nav-items a {
+  transition: 0.3s;
+  cursor: pointer;
+  display: block;
+  padding: 5vw;
+  font-size: 5vw;
+}
+.mobile-contact .fixed-mobile-nav .nav-items a:hover {
+  opacity: 0.5;
+}
+
+.mobile-contact .fixed-mobile-nav .nav-items a,
+.mobile-contact .fixed-mobile-nav .nav-items a:visited,
+.mobile-contact .fixed-mobile-nav .nav-items a:active {
+  text-decoration: none;
+  color: #fff;
+}
+/* ---------------  */
+
+/* ------------------ NavBar End --------------------- */
 
 @media screen and (max-width: 600px) {
   .mobile-contact {
