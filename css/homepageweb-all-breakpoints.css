@@ -6661,6 +6661,11 @@ body.mobile-menu-off .fixed-mobile-nav {
   margin-bottom: 5vw;
 }
 /* ----------------------------------------------------------- */
+@media screen and (max-width: 550px) {
+  .homepagemobile {
+    height: 2050vw;
+  }
+}
 @media screen and (max-width: 1023px) {
   .screen.homepageweb-all-breakpoints {
     display: none;

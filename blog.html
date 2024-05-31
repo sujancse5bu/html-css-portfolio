@@ -1002,7 +1002,7 @@
               element2.querySelector('img').style.display = 'none';
 
               deskArticleChildren.forEach((elem3, in3) => {
-                if (elem3.classList.contains(element.id)) {
+                if (element.id === 'all' || elem3.classList.contains(element.id)) {
                   elem3.style.display = ''
                 } else {
                   elem3.style.display = 'none'
@@ -1035,7 +1035,7 @@
               element2.querySelector('img').style.display = 'none';
 
               tabletArticleChildren.forEach((elem3, in3) => {
-                if (elem3.classList.contains(element.id)) {
+                if (element.id === 'all' || elem3.classList.contains(element.id)) {
                   elem3.style.display = ''
                 } else {
                   elem3.style.display = 'none'
@@ -1068,7 +1068,7 @@
               element2.querySelector('img').style.display = 'none';
 
               mobileArticleChildren.forEach((elem3, in3) => {
-                if (elem3.classList.contains(element.id)) {
+                if (element.id === 'all' || elem3.classList.contains(element.id)) {
                   elem3.style.display = ''
                 } else {
                   elem3.style.display = 'none'
