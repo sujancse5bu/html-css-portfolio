@@ -976,7 +976,7 @@ body.mobile-menu-off .fixed-mobile-nav {
   height: 9.33vw;
   left: 12.8vw;
   top: 19.47vw;
-  transform: rotate(-180deg);
+  /* transform: rotate(-180deg); */
   width: 34.13vw;
 }
 
@@ -1534,7 +1534,7 @@ body.mobile-menu-off .fixed-mobile-nav {
   background-color: transparent;
   color: var(--general-color3);
   font-family: var(--font-family-space_grotesk);
-  font-size: 10vw;
+  font-size: 8vw;
   font-style: normal;
   font-weight: 700;
   letter-spacing: 0vw;
@@ -3100,7 +3100,7 @@ body.mobile-menu-off .fixed-mobile-nav {
 
 .homepagetablet .techstars-startup-week-logo-1-75KlAS {
   top: 7.42vw;
-  transform: rotate(-180deg);
+  /* transform: rotate(-180deg); */
 }
 
 .homepagetablet .x2nd-place-75KlAS {
@@ -3848,9 +3848,9 @@ body.mobile-menu-off .fixed-mobile-nav {
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
-  gap: 10.16vw;
+  gap: 5vw;
   margin-bottom: -41.11vw;
-  padding: 10.16vw 14.84vw;
+  padding: 8vw 5vw;
   position: relative;
   width: 100vw;
 }
@@ -3909,14 +3909,15 @@ body.mobile-menu-off .fixed-mobile-nav {
   height: 29.1vw;
   overflow: hidden;
   position: relative;
-  width: 31.45vw;
+  width: 100%;
 }
 
 .homepagetablet .rectangle-2481-KlJcVV {
-  left: 14.16vw;
   position: absolute;
   top: 0vw;
-  width: 17.29vw;
+  width: 100%;
+  height: auto !important;
+  left: 0;
 }
 
 .homepagetablet .text-QcZzAg {
@@ -3963,7 +3964,7 @@ body.mobile-menu-off .fixed-mobile-nav {
   height: 29.1vw;
   overflow: hidden;
   position: relative;
-  width: 31.45vw;
+  width: 100%;
 }
 
 .homepagetablet .rectangle-2481-Ux2HSq {
@@ -4023,7 +4024,7 @@ body.mobile-menu-off .fixed-mobile-nav {
   overflow: hidden;
   /* padding: 0.98vw; */
   position: relative;
-  width: 31.45vw;
+  width: 100%;
 }
 
 .homepagetablet .rectangle-2481-BqIyTe {
@@ -4689,11 +4690,23 @@ body.mobile-menu-off .fixed-mobile-nav {
 
 .homepageweb-all-breakpoints .home-VT5um2,
 .homepageweb-all-breakpoints .blog-VT5um2,
-.homepageweb-all-breakpoints .download-resume-VT5um2 {
+.homepageweb-all-breakpoints .download-resume-VT5um2,
+.homepagetablet .home-VT5um2,
+.homepagetablet .blog-VT5um2,
+.homepagetablet .download-resume-VT5um2,
+.homepagemobile .home-VT5um2,
+.homepagemobile .blog-VT5um2,
+.homepagemobile .download-resume-VT5um2 {
   transition: 0.3s;
   cursor: pointer;
 }
 
+.homepagetablet .home-VT5um2:hover,
+.homepagetablet .blog-VT5um2:hover,
+.homepagetablet .download-resume-VT5um2:hover,
+.homepagemobile .home-VT5um2:hover,
+.homepagemobile .blog-VT5um2:hover,
+.homepagemobile .download-resume-VT5um2:hover,
 .homepageweb-all-breakpoints .home-VT5um2:hover,
 .homepageweb-all-breakpoints .blog-VT5um2:hover,
 .homepageweb-all-breakpoints .download-resume-VT5um2:hover {
@@ -6165,7 +6178,7 @@ body.mobile-menu-off .fixed-mobile-nav {
   background-color: transparent;
   letter-spacing: 0vw;
   line-height: 2.62vw;
-  margin-top: -0.06vw;
+  margin-top: 1vw;
   position: relative;
   text-align: justify;
 }
@@ -6213,7 +6226,7 @@ body.mobile-menu-off .fixed-mobile-nav {
   background-color: transparent;
   letter-spacing: 0vw;
   line-height: 2.62vw;
-  margin-top: -0.06vw;
+  margin-top: 1vw;
   position: relative;
   text-align: justify;
 }
@@ -6263,7 +6276,7 @@ body.mobile-menu-off .fixed-mobile-nav {
   background-color: transparent;
   letter-spacing: 0vw;
   line-height: 2.62vw;
-  margin-top: -0.06vw;
+  margin-top: 1vw;
   position: relative;
   text-align: justify;
 }
@@ -6659,6 +6672,25 @@ body.mobile-menu-off .fixed-mobile-nav {
   background-color: #ef856e;
   margin: 2vw auto;
   margin-bottom: 5vw;
+}
+/* ----------------------------------------------------------- */
+.swiper-container-tablet,
+.swiper-container-desk {
+  /* background-color: darkslateblue; */
+  width: 100%;
+  /* padding: 0 200px; */
+  overflow: hidden;
+}
+.swiper-container-desk {
+  height: 600px;
+}
+.swiper-container-tablet .swiper-slide,
+.swiper-container-desk .swiper-slide {
+  height: 100%;
+  /* padding: 0 5vw; */
+}
+.swiper-container-tablet .swiper-slide {
+  padding: 2vw;
 }
 /* ----------------------------------------------------------- */
 @media screen and (max-width: 550px) {

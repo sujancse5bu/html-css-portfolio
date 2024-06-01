@@ -431,13 +431,14 @@ body.mobile-menu-off .fixed-mobile-nav {
   display: inline-flex;
   flex: 0 0 auto;
   gap: 2vw;
-  justify-content: center;
+  /* justify-content: center; */
   margin-right: -63.2vw;
   opacity: 0.7;
   overflow: hidden;
   padding: 5vw 5vw;
   position: relative;
   width: 100%;
+  overflow-x: auto;
 }
 
 .blogmobile .tabs-filter-eXxrRt img {
@@ -2835,6 +2836,43 @@ body.mobile-menu-off .fixed-mobile-nav {
   margin-bottom: 5vw;
 }
 /* ----------------------------------------------------------- */
+.blogweb-all-breakpoints .home-VT5um2,
+.blogweb-all-breakpoints .blog-VT5um2,
+.blogweb-all-breakpoints .download-resume-VT5um2,
+.blogtablet .home-VT5um2,
+.blogtablet .blog-VT5um2,
+.blogtablet .download-resume-VT5um2,
+.blogmobile .home-VT5um2,
+.blogmobile .blog-VT5um2,
+.blogmobile .download-resume-VT5um2 {
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.blogtablet .home-VT5um2:hover,
+.blogtablet .blog-VT5um2:hover,
+.blogtablet .download-resume-VT5um2:hover,
+.blogmobile .home-VT5um2:hover,
+.blogmobile .blog-VT5um2:hover,
+.blogmobile .download-resume-VT5um2:hover,
+.blogweb-all-breakpoints .home-VT5um2:hover,
+.blogweb-all-breakpoints .blog-VT5um2:hover,
+.blogweb-all-breakpoints .download-resume-VT5um2:hover {
+  opacity: 0.5;
+}
+
+.blogweb-all-breakpoints .home-VT5um2 a,
+.blogweb-all-breakpoints .home-VT5um2 a:visited,
+.blogweb-all-breakpoints .home-VT5um2 a:active,
+.blogweb-all-breakpoints .blog-VT5um2 a,
+.blogweb-all-breakpoints .blog-VT5um2 a:visited,
+.blogweb-all-breakpoints .blog-VT5um2 a:active,
+.blogweb-all-breakpoints .download-resume-VT5um2 a,
+.blogweb-all-breakpoints .download-resume-VT5um2 a:visited,
+.blogweb-all-breakpoints .download-resume-VT5um2 a:active {
+  text-decoration: none;
+  color: #fff;
+}
 /* --------------------------------------- */
 @media screen and (max-width: 1023px) {
   .screen.blogweb-all-breakpoints {

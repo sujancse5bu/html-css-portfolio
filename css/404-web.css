@@ -648,6 +648,43 @@ body.mobile-menu-off .fixed-mobile-nav {
   margin-bottom: 5vw;
 }
 /* ------------------ */
+.home-VT5um2,
+.blog-VT5um2,
+.download-resume-VT5um2,
+.home-VT5um2,
+.blog-VT5um2,
+.download-resume-VT5um2,
+.home-VT5um2,
+.blog-VT5um2,
+.download-resume-VT5um2 {
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.home-VT5um2:hover,
+.blog-VT5um2:hover,
+.download-resume-VT5um2:hover,
+.home-VT5um2:hover,
+.blog-VT5um2:hover,
+.download-resume-VT5um2:hover,
+.home-VT5um2:hover,
+.blog-VT5um2:hover,
+.download-resume-VT5um2:hover {
+  opacity: 0.5;
+}
+
+.home-VT5um2 a,
+.home-VT5um2 a:visited,
+.home-VT5um2 a:active,
+.blog-VT5um2 a,
+.blog-VT5um2 a:visited,
+.blog-VT5um2 a:active,
+.download-resume-VT5um2 a,
+.download-resume-VT5um2 a:visited,
+.download-resume-VT5um2 a:active {
+  text-decoration: none;
+  color: #fff;
+}
 /* ------------------ */
 /* ------------------ */
 /* ------------------ */
