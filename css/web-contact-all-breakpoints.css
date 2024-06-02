@@ -2,7 +2,7 @@
 
 .mobile-contact {
   background-color: transparent;
-  height: 300vw;
+  height: 330vw;
   overflow-x: hidden;
   position: relative;
   width: 100.0vw;
@@ -10,7 +10,7 @@
 
 .mobile-contact .form-registration-type8-Pg4JIv {
   background-color: var(--general-colormidnight-blue---hero-section);
-  height: 300vw;
+  height: 330vw;
   left: 0.0vw;
   overflow: hidden;
   position: relative;
@@ -632,7 +632,7 @@
 
 .tabletcontact {
   background-color: transparent;
-  height: 140vw;
+  height: 150vw;
   overflow-x: hidden;
   position: relative;
   width: 100.0vw;
@@ -640,7 +640,7 @@
 
 .tabletcontact .form-registration-type7-g0GqZx {
   background-color: var(--general-colormidnight-blue---hero-section);
-  height: 140vw;
+  height: 150vw;
   left: 0.0vw;
   overflow: hidden;
   position: relative;
@@ -1129,7 +1129,7 @@
 
 .web-contact-all-breakpoints {
   background-color: transparent;
-  height: 85.0vw;
+  height: 95.0vw;
   overflow-x: hidden;
   position: relative;
   width: 100.0vw;
@@ -1137,7 +1137,7 @@
 
 .web-contact-all-breakpoints .form-registration-type9-WwdiHC {
   background-color: var(--general-colormidnight-blue---hero-section);
-  height: 85.0vw;
+  height: 95.0vw;
   left: 0.0vw;
   overflow: hidden;
   position: relative;
@@ -2422,6 +2422,87 @@ body.mobile-menu-off .fixed-mobile-nav {
 
 
 /* ------------------- */
+/* ---------------------------- Footer styles ------------------------------- */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  background-color: #093753;
+  padding: 4.49vw 9.49vw;
+}
+.footer .footer-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.mobile-contact .footer .footer-body,
+.tabletcontact .footer .footer-body {
+  grid-template-columns: 1fr;
+}
+.footer .footer-logo {
+  margin-bottom: 2vw;
+}
+.footer .footer-desc {
+  line-height: 2vw;
+}
+.mobile-contact .footer-desc {
+  line-height: 4vw;
+}
+.footer .footer-icons {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 2vw;
+  justify-content: flex-start;
+  margin: 2vw 0;
+}
+.footer .footer-icons > div {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  background-color: #ef856e;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.footer .footer-icons > div:hover {
+  opacity: 0.5;
+}
+.footer .footer-icons svg {
+  color: #fff;
+}
+.footer .footer-right {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 2vw;
+}
+.mobile-contact .footer .footer-right {
+  grid-template-columns: auto;
+  gap: 4vw;
+}
+.mobile-contact .footer .footer-right,
+.tabletcontact .footer .footer-right {
+  justify-content: flex-start;
+  padding: 4vw 0;
+}
+.footer .footer-right a {
+  text-decoration: none;
+  color: #FFF;
+}
+.footer .copyright {
+  text-align: center;
+}
+.footer .copyright .line {
+  width: 70vw;
+  height: 1px;
+  background-color: #ef856e;
+  margin: 2vw auto;
+  margin-bottom: 5vw;
+}
+/* ----------------------------------------------------------- */
 
 
 @media screen and (max-width: 800px) {
@@ -2460,16 +2541,17 @@ body.mobile-menu-off .fixed-mobile-nav {
   }
 
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
   .mobile-contact {
-    height: 410vw;
+    height: 400vw;
   }
   
   .mobile-contact .form-registration-type8-Pg4JIv {
-    height: 410vw;
+    height: 400vw;
   }
 
 }
+
 /* ------- */
 @media screen and (max-width: 1023px) {
   .screen.web-contact-all-breakpoints {
